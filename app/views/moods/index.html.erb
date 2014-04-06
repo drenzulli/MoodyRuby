@@ -1,0 +1,16 @@
+<table>
+	<tr>
+		<td>Mood</td>
+		<td>Adjectives</td>
+		<td>User</td>
+	</tr>
+	<% @moods.each do |mood| %>
+	<tr>
+		<td><%=link_to mood.feeling, mood_path(mood.id)%></td>
+		<td><%=mood.adjective%></td>
+		<td><%=mood.user_id%></td>
+		<td><%=link_to "edit mood", edit_mood_path(mood.id)%></td>
+		<td><%=link_to "Delete mood", mood, method: :delete%></td>
+	</tr>
+	<% end %>
+</table>
