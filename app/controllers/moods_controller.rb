@@ -1,19 +1,23 @@
 class MoodsController < ApplicationController
   def new
-  	@mood = Mood.new
+  	  @mood = Mood.new
   end
 
   def create
   	@mood = Mood.new(mood_params)
-  	if @mood.save
-  		redirect_to moods_path
-  	else
-  		render 'new'
-  	end
+    if @mood.user_id != current_user.id
+      redirect_to root_path
+    else
+  	 if @mood.save
+  	   redirect_to moods_path
+  	 else
+  	   render 'new'
+  	 end
+    end
   end
 
   def index
-  	@moods = Mood.all
+  	 @moods = Mood.all
   end
 
   def show
@@ -26,10 +30,14 @@ class MoodsController < ApplicationController
 
   def update
     @mood = Mood.find(params[:id])
-    if @mood.update_attributes(mood_params)
-      redirect_to moods_path(@mood.id)
-    else
+    if @mood.user_id != current_user.id
       render 'edit'
+    else
+      if @mood.update_attributes(mood_params)
+        redirect_to moods_path(@mood.id)
+      else
+        render 'edit'
+      end
     end
   end
 

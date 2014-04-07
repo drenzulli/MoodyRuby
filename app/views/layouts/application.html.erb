@@ -7,7 +7,23 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+	<p class="notice"><%=notice%></p>
+	<p class="alert"><%=alert%></p>
+	<ul class="navbar">
+		<li><a class="nav-link" href="/">Home</a></li>
+		<% if user_signed_in? %>
+			<li><a class="nav-link" href="/moods">Moods</a></li>
+			<li><a class="nav-link" href="/moods/new">New Mood</a></li>
+			<li>
+				<%= link_to('Logout', destroy_user_session_path, :method=>:delete) %>
+			</li>
+		<% else %>
+			<li>
+				<%= link_to('Login', new_user_session_path) %>
+			</li>
+		<% end %>
+	</ul>
+	
 <%= yield %>
 
 </body>
