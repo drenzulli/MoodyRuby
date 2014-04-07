@@ -1,28 +1,17 @@
-== README
+New app, lots of updates.  The purpose of this app is to add as a mood monitor for social media.  
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app accepts users and allows them to set up any moods they feel like with different keywords associated with the moods.
 
-Things you may want to cover:
+For databases: I currently have 2 different databases, although I may add a third in the future (I'll keep you posted!).
+There is currently a Users database which accepts Username, Password and email.  There is also a Moods database which accepts Feelings (moods)
+and Adjectives(which describe those moods).  Moods are attached to a User.
 
-* Ruby version
+For gems: Using devise for user authentication. Also plan on using tweetstream, although it is not yet implemented (again, keep you posted).
 
-* System dependencies
+For validations: I added 4 different validations to moods.  There is a regex, to make sure no numbers are added to feelings/adjectives,
+it is required that both fields are filled out, it is required that moods be between 3 and 20 characters in length and it is required that
+feelings be unique. 
 
-* Configuration
+For heroku addons: Using either Blower.io or TelAPI for sms messaging.
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+For queries: 

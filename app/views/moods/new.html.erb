@@ -14,4 +14,12 @@
 	<div class="actions">
 		<%=f.submit%>
 	</div>
+	<div class="error-msg">
+		<%if @mood.errors.any?%>
+		<ul>
+			<%@mood.errors.full_messages.each do |msg| %>
+			<li><%=msg%></li>
+			<%end%>
+		</ul>
+	<%end%>
 <% end %>
