@@ -7,8 +7,6 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-	<p class="notice"><%=notice%></p>
-	<p class="alert"><%=alert%></p>
 	<ul class="navbar">
 		<li><a class="nav-link" href="/">Home</a></li>
 		<% if user_signed_in? %>
@@ -23,7 +21,8 @@
 			</li>
 		<% end %>
 	</ul>
-	
+<p class="notice"><%=notice%></p>
+<p class="alert"><%=alert%></p>
 <%= yield %>
 
 </body>
