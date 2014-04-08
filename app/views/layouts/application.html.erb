@@ -12,6 +12,8 @@
 		<% if user_signed_in? %>
 			<li><a class="nav-link" href="/moods">Moods</a></li>
 			<li><a class="nav-link" href="/moods/new">New Mood</a></li>
+			<li><a class="nav-link" href="/quotes">Quotes</a></li>
+			<li><a class="nav-link" href="/quotes/new">New Quote</a></li>
 			<li>
 				<%= link_to('Logout', destroy_user_session_path, :method=>:delete) %>
 			</li>

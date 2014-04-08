@@ -1,0 +1,13 @@
+<%= form_for(@quote) do |f| %>
+	<div class="field">
+		<p>Feeling</p>
+		<%=f.collection_select :feeling_id, Mood.all.order(:feeling), :id, :feeling%>
+	</div>
+	<div class="field">
+		<p>Quote</p>
+		<%=f.text_field :body%>
+	</div>
+	<div class="actions">
+		<%=f.submit%>
+	</div>
+<% end %>

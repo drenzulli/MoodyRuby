@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140407023703) do
+ActiveRecord::Schema.define(version: 20140408002521) do
 
   create_table "moods", force: true do |t|
     t.string   "feeling"
@@ -22,6 +22,15 @@ ActiveRecord::Schema.define(version: 20140407023703) do
   end
 
   add_index "moods", ["user_id"], name: "index_moods_on_user_id"
+
+  create_table "quotes", force: true do |t|
+    t.integer  "feeling_id"
+    t.text     "body"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "quotes", ["feeling_id"], name: "index_quotes_on_feeling_id"
 
   create_table "users", force: true do |t|
     t.string   "name"

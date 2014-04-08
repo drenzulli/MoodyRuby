@@ -2,9 +2,10 @@ New app, lots of updates.  The purpose of this app is to add as a mood monitor f
 
 This app accepts users and allows them to set up any moods they feel like with different keywords associated with the moods.
 
-For databases: I currently have 2 different databases, although I may add a third in the future (I'll keep you posted!).
+For databases: I currently have 3 different databases, although I may add a fourth in the future (I'll keep you posted!).
 There is currently a Users database which accepts Username, Password and email.  There is also a Moods database which accepts Feelings (moods)
-and Adjectives(which describe those moods).  Moods are attached to a User.
+and Adjectives(which describe those moods).  Moods are attached to a User. Lastly, there is a quotes database which is attached to Moods and
+accepts moods and quotes.
 
 For gems: Using devise for user authentication. Also plan on using tweetstream, although it is not yet implemented (again, keep you posted).
 
@@ -14,4 +15,7 @@ feelings be unique.
 
 For heroku addons: Using either Blower.io or TelAPI for sms messaging.
 
-For queries: 
+For queries: My first query is in moods_controller.rb. I alphabetically ordered the returned feelings for the moods index. 
+The second query (where) is under moods_controller as well.  Clicking on a mood shows the adjectives and associated quotes.
+The third query is a limit query attached to the quotes to limit them to the 3 most recently added so as not to overwhelm the page with text.
+The fourth query, order, is on the quotes index page (app/views/quotes/index.html.erb).  I ordered the options alphabetically here as well.

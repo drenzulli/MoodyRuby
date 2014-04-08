@@ -17,11 +17,12 @@ class MoodsController < ApplicationController
   end
 
   def index
-  	 @moods = Mood.all
+  	 @moods = Mood.all.order(:feeling).limit(10)
   end
 
   def show
     @mood = Mood.find(params[:id])
+    @quotes = Quote.where(feeling_id: @mood.id).limit(3)
   end
 
   def edit

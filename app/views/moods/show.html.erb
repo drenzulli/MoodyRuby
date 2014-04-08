@@ -1,5 +1,7 @@
 <div>
-	<h2><%=@mood.feeling%></h2>
-	<h2><%=@mood.adjective%></h2>
-	<h2><%=@mood.user_id%></h2>
+	<h1><%=@mood.feeling%></h1>
+	<h3><%=@mood.adjective%></h3>
+	<% @quotes.each do |quote| %>
+		<h5><%=quote.body%><h5>
+	<% end %>
 </div>
