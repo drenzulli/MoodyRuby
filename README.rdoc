@@ -1,3 +1,9 @@
+heroku link: http://blooming-atoll-4451.herokuapp.com/users/sign_in
+
+
+
+4/7/2014
+
 New app, lots of updates.  The purpose of this app is to add as a mood monitor for social media.  
 
 This app accepts users and allows them to set up any moods they feel like with different keywords associated with the moods.
