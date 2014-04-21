@@ -1,16 +1,39 @@
-// This is a manifest file that'll be compiled into application.js, which will include all the files
-// listed below.
-//
-// Any JavaScript/Coffee file within this directory, lib/assets/javascripts, vendor/assets/javascripts,
-// or vendor/assets/javascripts of plugins, if any, can be referenced here using a relative path.
-//
-// It's not advisable to add code directly here, but if you do, it'll appear at the bottom of the
-// compiled file.
-//
-// Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
-// about supported directives.
-//
-//= require jquery
-//= require jquery_ujs
-//= require turbolinks
-//= require_tree .
+$(function () {
+	$('.nav-link').hover(function () {
+		var links = ($(this).text());
+		var text = "";
+
+		switch(links) {
+			case "Moods":
+				text = "A list of your current moods.";
+				break;
+
+			case "New Mood":
+				text = "Click here to add a new mood.";
+				break;
+
+			case "Quotes":
+				text = "A list of your current quotes.";
+				break;
+
+			case "New Quote":
+				text = "Click here to add a new quote.";
+				break;
+
+			default:
+				break;
+		}
+
+		$('<p class="nav-hover"></p>').text(text)
+		.appendTo('body').hide().fadeIn('slow');
+	}, 
+
+	function() {
+		$('.nav-hover').remove();
+	})
+	.mousemove(function (e) {
+		var y = e.pageY;
+		var x = e.pageX + 10;
+		$('.nav-hover').css({'position':'absolute', 'top': y, 'left': x});
+	});	
+});

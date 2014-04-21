@@ -1,5 +1,9 @@
 heroku link: http://blooming-atoll-4451.herokuapp.com/users/sign_in
 
+4/20/2014
+
+Added jQuery to application (app/assets/javascripts/application.js).  It adds a hover tool-tip text (yet to be css'd) element
+to links on the main navbar.
 
 
 4/7/2014
