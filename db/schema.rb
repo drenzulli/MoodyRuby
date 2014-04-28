@@ -11,11 +11,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140408002521) do
+ActiveRecord::Schema.define(version: 20140428161911) do
 
   create_table "moods", force: true do |t|
     t.string   "feeling"
-    t.string   "adjective"
+    t.text     "adjective",  limit: 255
     t.integer  "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
