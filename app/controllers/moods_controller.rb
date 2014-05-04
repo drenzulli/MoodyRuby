@@ -10,7 +10,7 @@ class MoodsController < ApplicationController
     else
   	 if @mood.save
        blowerio = RestClient::Resource.new(ENV['BLOWERIO_URL'])
-       blowerio['/messages'].post :to => @mood.user.phonenumber, :message => 'Hello from Blower.io'
+       blowerio['/messages'].post :to => '+' << @mood.user.phonenumber, :message => 'Hello from Blower.io'
   	   redirect_to moods_path
   	 else
   	   render 'new'
