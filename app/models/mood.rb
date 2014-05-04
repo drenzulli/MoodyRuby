@@ -5,4 +5,5 @@ class Mood < ActiveRecord::Base
   
   validates :feeling, length: {within: 3..20}, presence: true, format: {with: moodFormatValidation}, uniqueness: true
   validates :adjective, presence: true, format: {with: moodFormatValidation}
+  validates :phonenumber, presence: true
 end

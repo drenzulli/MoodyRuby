@@ -15,10 +15,11 @@ ActiveRecord::Schema.define(version: 20140504193625) do
 
   create_table "moods", force: true do |t|
     t.string   "feeling"
-    t.text     "adjective",  limit: 255
+    t.text     "adjective",   limit: 255
     t.integer  "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "phonenumber"
   end
 
   add_index "moods", ["user_id"], name: "index_moods_on_user_id"
@@ -47,7 +48,6 @@ ActiveRecord::Schema.define(version: 20140504193625) do
     t.datetime "last_sign_in_at"
     t.string   "current_sign_in_ip"
     t.string   "last_sign_in_ip"
-    t.string   "phonenumber"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true
