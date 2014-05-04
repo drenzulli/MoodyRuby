@@ -1,0 +1,822 @@
+# Logfile created on 2014-05-04 14:13:35 -0400 by logger.rb/44203
+D, [2014-05-04T14:13:35.457616 #17826] DEBUG -- Pubnub: Symbolizing options keys
+D, [2014-05-04T14:13:35.458000 #17826] DEBUG -- Pubnub: Setting default values
+D, [2014-05-04T14:13:35.458237 #17826] DEBUG -- Pubnub: 
+
+Created new Pubnub::Client instance
+D, [2014-05-04T14:13:35.458381 #17826] DEBUG -- Pubnub: Pubnub::Client#start_event_machine | starting EM in new thread
+D, [2014-05-04T14:13:35.458484 #17826] DEBUG -- Pubnub: Pubnub::Client#start_event_machine | We aren't running on thin
+D, [2014-05-04T14:13:35.458713 #17826] DEBUG -- Pubnub: Pubnub::Client#start_event_machine | EM started in new thread
+D, [2014-05-04T14:15:27.225999 #17826] DEBUG -- Pubnub: Event#initialize | Initialized Pubnub::Subscribe
+D, [2014-05-04T14:15:27.226240 #17826] DEBUG -- Pubnub: Created event Pubnub::Subscribe
+D, [2014-05-04T14:15:27.226368 #17826] DEBUG -- Pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 0
+D, [2014-05-04T14:15:27.226471 #17826] DEBUG -- Pubnub: SubscribeEvent#fire
+D, [2014-05-04T14:15:27.226566 #17826] DEBUG -- Pubnub: SubscribeEvent#fire async
+D, [2014-05-04T14:15:27.227327 #17826] DEBUG -- Pubnub: Channel: ["a"]
+D, [2014-05-04T14:15:27.227672 #17826] DEBUG -- Pubnub: Pubnub::Client#start_event_machine | starting EM in new thread
+D, [2014-05-04T14:15:27.227762 #17826] DEBUG -- Pubnub: Pubnub::Client#start_event_machine | We aren't running on thin
+D, [2014-05-04T14:15:27.227834 #17826] DEBUG -- Pubnub: Pubnub::Client#start_event_machine | EM already running
+D, [2014-05-04T14:15:27.478387 #17826] DEBUG -- Pubnub: Async subscription running
+D, [2014-05-04T14:15:27.478658 #17826] DEBUG -- Pubnub: origin: pubsub.pubnub.com
+D, [2014-05-04T14:15:27.478775 #17826] DEBUG -- Pubnub: timetoken: 0
+D, [2014-05-04T14:15:27.481265 #17826] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2014-05-04T14:15:27.481488 #17826] DEBUG -- Pubnub: Event#start_event | tt: 0; ctt 0
+D, [2014-05-04T14:15:27.481862 #17826] DEBUG -- Pubnub: Pubnub::Subscribe#uri http://pubsub.pubnub.com/subscribe/demo/a/0/0?pnsdk=PubNub-Ruby/3.5.3&uuid=i_am_a_real_time_boss_1
+D, [2014-05-04T14:15:27.572700 #17826] DEBUG -- Pubnub: Event#handle_response
+D, [2014-05-04T14:15:27.572898 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes
+D, [2014-05-04T14:15:27.573043 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Response parsed
+D, [2014-05-04T14:15:27.573166 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Timetoken
+D, [2014-05-04T14:15:27.573410 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | envelopes created
+D, [2014-05-04T14:15:27.573525 #17826] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2014-05-04T14:15:27.573639 #17826] DEBUG -- Pubnub: Event#update_app_timetoken
+D, [2014-05-04T14:15:27.573784 #17826] DEBUG -- Pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 13992273278323933
+D, [2014-05-04T14:15:27.573887 #17826] DEBUG -- Pubnub: Updated timetoken to 13992273278323933
+D, [2014-05-04T14:15:27.573992 #17826] DEBUG -- Pubnub: Event#fire_callbacks async
+D, [2014-05-04T14:15:27.574089 #17826] DEBUG -- Pubnub: We can send next request now
+D, [2014-05-04T14:15:27.731325 #17826] DEBUG -- Pubnub: Async subscription running
+D, [2014-05-04T14:15:27.731575 #17826] DEBUG -- Pubnub: origin: pubsub.pubnub.com
+D, [2014-05-04T14:15:27.731689 #17826] DEBUG -- Pubnub: timetoken: 13992273278323933
+D, [2014-05-04T14:15:27.731983 #17826] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2014-05-04T14:15:27.732202 #17826] DEBUG -- Pubnub: Event#start_event | tt: 13992273278323933; ctt 13992273278323933
+D, [2014-05-04T14:15:27.732475 #17826] DEBUG -- Pubnub: Pubnub::Subscribe#uri http://pubsub.pubnub.com/subscribe/demo/a/0/13992273278323933?pnsdk=PubNub-Ruby/3.5.3&uuid=i_am_a_real_time_boss_1
+D, [2014-05-04T14:15:28.662465 #17826] DEBUG -- Pubnub: Event#handle_response
+D, [2014-05-04T14:15:28.662669 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes
+D, [2014-05-04T14:15:28.662804 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Response parsed
+D, [2014-05-04T14:15:28.662925 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Not timetoken update
+D, [2014-05-04T14:15:28.663035 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Channel created
+D, [2014-05-04T14:15:28.663176 #17826] DEBUG -- Pubnub: [["********....... 5131 - 2014-05-04 11:15:28"], "13992273289184006"]
+D, [2014-05-04T14:15:28.663418 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Envelopes created
+D, [2014-05-04T14:15:28.663522 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | envelopes created
+D, [2014-05-04T14:15:28.663693 #17826] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2014-05-04T14:15:28.663799 #17826] DEBUG -- Pubnub: Event#update_app_timetoken
+D, [2014-05-04T14:15:28.663949 #17826] DEBUG -- Pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 13992273289184006
+D, [2014-05-04T14:15:28.664052 #17826] DEBUG -- Pubnub: Updated timetoken to 13992273289184006
+D, [2014-05-04T14:15:28.664166 #17826] DEBUG -- Pubnub: Event#fire_callbacks async
+D, [2014-05-04T14:15:28.664344 #17826] DEBUG -- Pubnub: We can send next request now
+D, [2014-05-04T14:15:28.733328 #17826] DEBUG -- Pubnub: Async subscription running
+D, [2014-05-04T14:15:28.733574 #17826] DEBUG -- Pubnub: origin: pubsub.pubnub.com
+D, [2014-05-04T14:15:28.733702 #17826] DEBUG -- Pubnub: timetoken: 13992273289184006
+D, [2014-05-04T14:15:28.733992 #17826] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2014-05-04T14:15:28.734217 #17826] DEBUG -- Pubnub: Event#start_event | tt: 13992273289184006; ctt 13992273289184006
+D, [2014-05-04T14:15:28.734510 #17826] DEBUG -- Pubnub: Pubnub::Subscribe#uri http://pubsub.pubnub.com/subscribe/demo/a/0/13992273289184006?pnsdk=PubNub-Ruby/3.5.3&uuid=i_am_a_real_time_boss_1
+D, [2014-05-04T14:15:29.785365 #17826] DEBUG -- Pubnub: Event#handle_response
+D, [2014-05-04T14:15:29.785665 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes
+D, [2014-05-04T14:15:29.785806 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Response parsed
+D, [2014-05-04T14:15:29.785906 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Not timetoken update
+D, [2014-05-04T14:15:29.786023 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Channel created
+D, [2014-05-04T14:15:29.786169 #17826] DEBUG -- Pubnub: [["*********...... 5132 - 2014-05-04 11:15:29"], "13992273300262107"]
+D, [2014-05-04T14:15:29.786401 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Envelopes created
+D, [2014-05-04T14:15:29.786500 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | envelopes created
+D, [2014-05-04T14:15:29.786593 #17826] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2014-05-04T14:15:29.786694 #17826] DEBUG -- Pubnub: Event#update_app_timetoken
+D, [2014-05-04T14:15:29.786821 #17826] DEBUG -- Pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 13992273300262107
+D, [2014-05-04T14:15:29.786942 #17826] DEBUG -- Pubnub: Updated timetoken to 13992273300262107
+D, [2014-05-04T14:15:29.787047 #17826] DEBUG -- Pubnub: Event#fire_callbacks async
+D, [2014-05-04T14:15:29.787194 #17826] DEBUG -- Pubnub: We can send next request now
+D, [2014-05-04T14:15:29.985965 #17826] DEBUG -- Pubnub: Async subscription running
+D, [2014-05-04T14:15:29.986230 #17826] DEBUG -- Pubnub: origin: pubsub.pubnub.com
+D, [2014-05-04T14:15:29.986348 #17826] DEBUG -- Pubnub: timetoken: 13992273300262107
+D, [2014-05-04T14:15:29.986626 #17826] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2014-05-04T14:15:29.986829 #17826] DEBUG -- Pubnub: Event#start_event | tt: 13992273300262107; ctt 13992273300262107
+D, [2014-05-04T14:15:29.987099 #17826] DEBUG -- Pubnub: Pubnub::Subscribe#uri http://pubsub.pubnub.com/subscribe/demo/a/0/13992273300262107?pnsdk=PubNub-Ruby/3.5.3&uuid=i_am_a_real_time_boss_1
+D, [2014-05-04T14:15:30.914747 #17826] DEBUG -- Pubnub: Event#handle_response
+D, [2014-05-04T14:15:30.914958 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes
+D, [2014-05-04T14:15:30.915097 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Response parsed
+D, [2014-05-04T14:15:30.915218 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Not timetoken update
+D, [2014-05-04T14:15:30.915338 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Channel created
+D, [2014-05-04T14:15:30.915467 #17826] DEBUG -- Pubnub: [["**********..... 5133 - 2014-05-04 11:15:31"], "13992273311547473"]
+D, [2014-05-04T14:15:30.915695 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Envelopes created
+D, [2014-05-04T14:15:30.915796 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | envelopes created
+D, [2014-05-04T14:15:30.915891 #17826] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2014-05-04T14:15:30.915992 #17826] DEBUG -- Pubnub: Event#update_app_timetoken
+D, [2014-05-04T14:15:30.916133 #17826] DEBUG -- Pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 13992273311547473
+D, [2014-05-04T14:15:30.916241 #17826] DEBUG -- Pubnub: Updated timetoken to 13992273311547473
+D, [2014-05-04T14:15:30.916341 #17826] DEBUG -- Pubnub: Event#fire_callbacks async
+D, [2014-05-04T14:15:30.916505 #17826] DEBUG -- Pubnub: We can send next request now
+D, [2014-05-04T14:15:30.987950 #17826] DEBUG -- Pubnub: Async subscription running
+D, [2014-05-04T14:15:30.988230 #17826] DEBUG -- Pubnub: origin: pubsub.pubnub.com
+D, [2014-05-04T14:15:30.988351 #17826] DEBUG -- Pubnub: timetoken: 13992273311547473
+D, [2014-05-04T14:15:30.988623 #17826] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2014-05-04T14:15:30.988826 #17826] DEBUG -- Pubnub: Event#start_event | tt: 13992273311547473; ctt 13992273311547473
+D, [2014-05-04T14:15:30.989088 #17826] DEBUG -- Pubnub: Pubnub::Subscribe#uri http://pubsub.pubnub.com/subscribe/demo/a/0/13992273311547473?pnsdk=PubNub-Ruby/3.5.3&uuid=i_am_a_real_time_boss_1
+D, [2014-05-04T14:15:32.041002 #17826] DEBUG -- Pubnub: Event#handle_response
+D, [2014-05-04T14:15:32.041236 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes
+D, [2014-05-04T14:15:32.041382 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Response parsed
+D, [2014-05-04T14:15:32.041484 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Not timetoken update
+D, [2014-05-04T14:15:32.041582 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Channel created
+D, [2014-05-04T14:15:32.041707 #17826] DEBUG -- Pubnub: [["***********.... 5134 - 2014-05-04 11:15:32"], "13992273322589820"]
+D, [2014-05-04T14:15:32.041933 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Envelopes created
+D, [2014-05-04T14:15:32.042031 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | envelopes created
+D, [2014-05-04T14:15:32.042134 #17826] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2014-05-04T14:15:32.042244 #17826] DEBUG -- Pubnub: Event#update_app_timetoken
+D, [2014-05-04T14:15:32.042386 #17826] DEBUG -- Pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 13992273322589820
+D, [2014-05-04T14:15:32.042485 #17826] DEBUG -- Pubnub: Updated timetoken to 13992273322589820
+D, [2014-05-04T14:15:32.042585 #17826] DEBUG -- Pubnub: Event#fire_callbacks async
+D, [2014-05-04T14:15:32.042753 #17826] DEBUG -- Pubnub: We can send next request now
+D, [2014-05-04T14:15:32.240661 #17826] DEBUG -- Pubnub: Async subscription running
+D, [2014-05-04T14:15:32.240970 #17826] DEBUG -- Pubnub: origin: pubsub.pubnub.com
+D, [2014-05-04T14:15:32.241097 #17826] DEBUG -- Pubnub: timetoken: 13992273322589820
+D, [2014-05-04T14:15:32.241424 #17826] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2014-05-04T14:15:32.241753 #17826] DEBUG -- Pubnub: Event#start_event | tt: 13992273322589820; ctt 13992273322589820
+D, [2014-05-04T14:15:32.242018 #17826] DEBUG -- Pubnub: Pubnub::Subscribe#uri http://pubsub.pubnub.com/subscribe/demo/a/0/13992273322589820?pnsdk=PubNub-Ruby/3.5.3&uuid=i_am_a_real_time_boss_1
+D, [2014-05-04T14:15:33.060948 #17826] DEBUG -- Pubnub: Event#handle_response
+D, [2014-05-04T14:15:33.061173 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes
+D, [2014-05-04T14:15:33.061316 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Response parsed
+D, [2014-05-04T14:15:33.061417 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Not timetoken update
+D, [2014-05-04T14:15:33.061535 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Channel created
+D, [2014-05-04T14:15:33.061805 #17826] DEBUG -- Pubnub: [["************... 5135 - 2014-05-04 11:15:33"], "13992273333140597"]
+D, [2014-05-04T14:15:33.062038 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Envelopes created
+D, [2014-05-04T14:15:33.062153 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | envelopes created
+D, [2014-05-04T14:15:33.062255 #17826] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2014-05-04T14:15:33.062358 #17826] DEBUG -- Pubnub: Event#update_app_timetoken
+D, [2014-05-04T14:15:33.062486 #17826] DEBUG -- Pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 13992273333140597
+D, [2014-05-04T14:15:33.062586 #17826] DEBUG -- Pubnub: Updated timetoken to 13992273333140597
+D, [2014-05-04T14:15:33.062686 #17826] DEBUG -- Pubnub: Event#fire_callbacks async
+D, [2014-05-04T14:15:33.062819 #17826] DEBUG -- Pubnub: We can send next request now
+D, [2014-05-04T14:15:33.242990 #17826] DEBUG -- Pubnub: Async subscription running
+D, [2014-05-04T14:15:33.243259 #17826] DEBUG -- Pubnub: origin: pubsub.pubnub.com
+D, [2014-05-04T14:15:33.243377 #17826] DEBUG -- Pubnub: timetoken: 13992273333140597
+D, [2014-05-04T14:15:33.243672 #17826] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2014-05-04T14:15:33.243871 #17826] DEBUG -- Pubnub: Event#start_event | tt: 13992273333140597; ctt 13992273333140597
+D, [2014-05-04T14:15:33.244186 #17826] DEBUG -- Pubnub: Pubnub::Subscribe#uri http://pubsub.pubnub.com/subscribe/demo/a/0/13992273333140597?pnsdk=PubNub-Ruby/3.5.3&uuid=i_am_a_real_time_boss_1
+D, [2014-05-04T14:15:34.185989 #17826] DEBUG -- Pubnub: Event#handle_response
+D, [2014-05-04T14:15:34.186231 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes
+D, [2014-05-04T14:15:34.186373 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Response parsed
+D, [2014-05-04T14:15:34.186527 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Not timetoken update
+D, [2014-05-04T14:15:34.186634 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Channel created
+D, [2014-05-04T14:15:34.186810 #17826] DEBUG -- Pubnub: [["*************.. 5136 - 2014-05-04 11:15:34"], "13992273343815670"]
+D, [2014-05-04T14:15:34.187087 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Envelopes created
+D, [2014-05-04T14:15:34.187211 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | envelopes created
+D, [2014-05-04T14:15:34.187308 #17826] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2014-05-04T14:15:34.187411 #17826] DEBUG -- Pubnub: Event#update_app_timetoken
+D, [2014-05-04T14:15:34.187588 #17826] DEBUG -- Pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 13992273343815670
+D, [2014-05-04T14:15:34.187740 #17826] DEBUG -- Pubnub: Updated timetoken to 13992273343815670
+D, [2014-05-04T14:15:34.187888 #17826] DEBUG -- Pubnub: Event#fire_callbacks async
+D, [2014-05-04T14:15:34.188025 #17826] DEBUG -- Pubnub: We can send next request now
+D, [2014-05-04T14:15:34.245015 #17826] DEBUG -- Pubnub: Async subscription running
+D, [2014-05-04T14:15:34.245282 #17826] DEBUG -- Pubnub: origin: pubsub.pubnub.com
+D, [2014-05-04T14:15:34.245399 #17826] DEBUG -- Pubnub: timetoken: 13992273343815670
+D, [2014-05-04T14:15:34.245675 #17826] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2014-05-04T14:15:34.245869 #17826] DEBUG -- Pubnub: Event#start_event | tt: 13992273343815670; ctt 13992273343815670
+D, [2014-05-04T14:15:34.246162 #17826] DEBUG -- Pubnub: Pubnub::Subscribe#uri http://pubsub.pubnub.com/subscribe/demo/a/0/13992273343815670?pnsdk=PubNub-Ruby/3.5.3&uuid=i_am_a_real_time_boss_1
+D, [2014-05-04T14:15:35.362999 #17826] DEBUG -- Pubnub: Event#handle_response
+D, [2014-05-04T14:15:35.363222 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes
+D, [2014-05-04T14:15:35.363359 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Response parsed
+D, [2014-05-04T14:15:35.363460 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Not timetoken update
+D, [2014-05-04T14:15:35.363621 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Channel created
+D, [2014-05-04T14:15:35.363833 #17826] DEBUG -- Pubnub: [["**************. 5137 - 2014-05-04 11:15:35"], "13992273354530857"]
+D, [2014-05-04T14:15:35.364176 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Envelopes created
+D, [2014-05-04T14:15:35.364331 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | envelopes created
+D, [2014-05-04T14:15:35.364428 #17826] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2014-05-04T14:15:35.364576 #17826] DEBUG -- Pubnub: Event#update_app_timetoken
+D, [2014-05-04T14:15:35.364875 #17826] DEBUG -- Pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 13992273354530857
+D, [2014-05-04T14:15:35.365026 #17826] DEBUG -- Pubnub: Updated timetoken to 13992273354530857
+D, [2014-05-04T14:15:35.365145 #17826] DEBUG -- Pubnub: Event#fire_callbacks async
+D, [2014-05-04T14:15:35.365308 #17826] DEBUG -- Pubnub: We can send next request now
+D, [2014-05-04T14:15:35.497544 #17826] DEBUG -- Pubnub: Async subscription running
+D, [2014-05-04T14:15:35.497823 #17826] DEBUG -- Pubnub: origin: pubsub.pubnub.com
+D, [2014-05-04T14:15:35.497941 #17826] DEBUG -- Pubnub: timetoken: 13992273354530857
+D, [2014-05-04T14:15:35.498298 #17826] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2014-05-04T14:15:35.498502 #17826] DEBUG -- Pubnub: Event#start_event | tt: 13992273354530857; ctt 13992273354530857
+D, [2014-05-04T14:15:35.498772 #17826] DEBUG -- Pubnub: Pubnub::Subscribe#uri http://pubsub.pubnub.com/subscribe/demo/a/0/13992273354530857?pnsdk=PubNub-Ruby/3.5.3&uuid=i_am_a_real_time_boss_1
+D, [2014-05-04T14:15:36.336913 #17826] DEBUG -- Pubnub: Event#handle_response
+D, [2014-05-04T14:15:36.337138 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes
+D, [2014-05-04T14:15:36.337354 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Response parsed
+D, [2014-05-04T14:15:36.337508 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Not timetoken update
+D, [2014-05-04T14:15:36.337612 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Channel created
+D, [2014-05-04T14:15:36.337786 #17826] DEBUG -- Pubnub: [["*************** 5138 - 2014-05-04 11:15:36"], "13992273365453441"]
+D, [2014-05-04T14:15:36.338053 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Envelopes created
+D, [2014-05-04T14:15:36.338220 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | envelopes created
+D, [2014-05-04T14:15:36.338319 #17826] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2014-05-04T14:15:36.338421 #17826] DEBUG -- Pubnub: Event#update_app_timetoken
+D, [2014-05-04T14:15:36.338558 #17826] DEBUG -- Pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 13992273365453441
+D, [2014-05-04T14:15:36.338657 #17826] DEBUG -- Pubnub: Updated timetoken to 13992273365453441
+D, [2014-05-04T14:15:36.338756 #17826] DEBUG -- Pubnub: Event#fire_callbacks async
+D, [2014-05-04T14:15:36.338889 #17826] DEBUG -- Pubnub: We can send next request now
+D, [2014-05-04T14:15:36.499736 #17826] DEBUG -- Pubnub: Async subscription running
+D, [2014-05-04T14:15:36.499982 #17826] DEBUG -- Pubnub: origin: pubsub.pubnub.com
+D, [2014-05-04T14:15:36.500097 #17826] DEBUG -- Pubnub: timetoken: 13992273365453441
+D, [2014-05-04T14:15:36.500405 #17826] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2014-05-04T14:15:36.500603 #17826] DEBUG -- Pubnub: Event#start_event | tt: 13992273365453441; ctt 13992273365453441
+D, [2014-05-04T14:15:36.500893 #17826] DEBUG -- Pubnub: Pubnub::Subscribe#uri http://pubsub.pubnub.com/subscribe/demo/a/0/13992273365453441?pnsdk=PubNub-Ruby/3.5.3&uuid=i_am_a_real_time_boss_1
+D, [2014-05-04T14:15:37.269010 #17826] DEBUG -- Pubnub: Event#handle_response
+D, [2014-05-04T14:15:37.269252 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes
+D, [2014-05-04T14:15:37.269390 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Response parsed
+D, [2014-05-04T14:15:37.269489 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Not timetoken update
+D, [2014-05-04T14:15:37.269588 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Channel created
+D, [2014-05-04T14:15:37.269749 #17826] DEBUG -- Pubnub: [["*.............. 5139 - 2014-05-04 11:15:37"], "13992273376446715"]
+D, [2014-05-04T14:15:37.269981 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Envelopes created
+D, [2014-05-04T14:15:37.270082 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | envelopes created
+D, [2014-05-04T14:15:37.270197 #17826] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2014-05-04T14:15:37.270302 #17826] DEBUG -- Pubnub: Event#update_app_timetoken
+D, [2014-05-04T14:15:37.270430 #17826] DEBUG -- Pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 13992273376446715
+D, [2014-05-04T14:15:37.270530 #17826] DEBUG -- Pubnub: Updated timetoken to 13992273376446715
+D, [2014-05-04T14:15:37.270644 #17826] DEBUG -- Pubnub: Event#fire_callbacks async
+D, [2014-05-04T14:15:37.270787 #17826] DEBUG -- Pubnub: We can send next request now
+D, [2014-05-04T14:15:37.502021 #17826] DEBUG -- Pubnub: Async subscription running
+D, [2014-05-04T14:15:37.502290 #17826] DEBUG -- Pubnub: origin: pubsub.pubnub.com
+D, [2014-05-04T14:15:37.502406 #17826] DEBUG -- Pubnub: timetoken: 13992273376446715
+D, [2014-05-04T14:15:37.502681 #17826] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2014-05-04T14:15:37.502881 #17826] DEBUG -- Pubnub: Event#start_event | tt: 13992273376446715; ctt 13992273376446715
+D, [2014-05-04T14:15:37.503168 #17826] DEBUG -- Pubnub: Pubnub::Subscribe#uri http://pubsub.pubnub.com/subscribe/demo/a/0/13992273376446715?pnsdk=PubNub-Ruby/3.5.3&uuid=i_am_a_real_time_boss_1
+D, [2014-05-04T14:15:38.489436 #17826] DEBUG -- Pubnub: Event#handle_response
+D, [2014-05-04T14:15:38.489646 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes
+D, [2014-05-04T14:15:38.489783 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Response parsed
+D, [2014-05-04T14:15:38.489886 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Not timetoken update
+D, [2014-05-04T14:15:38.489985 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Channel created
+D, [2014-05-04T14:15:38.490113 #17826] DEBUG -- Pubnub: [["**............. 5140 - 2014-05-04 11:15:38"], "13992273387426345"]
+D, [2014-05-04T14:15:38.490365 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Envelopes created
+D, [2014-05-04T14:15:38.490466 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | envelopes created
+D, [2014-05-04T14:15:38.490559 #17826] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2014-05-04T14:15:38.490662 #17826] DEBUG -- Pubnub: Event#update_app_timetoken
+D, [2014-05-04T14:15:38.490791 #17826] DEBUG -- Pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 13992273387426345
+D, [2014-05-04T14:15:38.490985 #17826] DEBUG -- Pubnub: Updated timetoken to 13992273387426345
+D, [2014-05-04T14:15:38.491098 #17826] DEBUG -- Pubnub: Event#fire_callbacks async
+D, [2014-05-04T14:15:38.491342 #17826] DEBUG -- Pubnub: We can send next request now
+D, [2014-05-04T14:15:38.503999 #17826] DEBUG -- Pubnub: Async subscription running
+D, [2014-05-04T14:15:38.504266 #17826] DEBUG -- Pubnub: origin: pubsub.pubnub.com
+D, [2014-05-04T14:15:38.504384 #17826] DEBUG -- Pubnub: timetoken: 13992273387426345
+D, [2014-05-04T14:15:38.504704 #17826] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2014-05-04T14:15:38.504849 #17826] DEBUG -- Pubnub: Event#start_event | tt: 13992273387426345; ctt 13992273387426345
+D, [2014-05-04T14:15:38.505106 #17826] DEBUG -- Pubnub: Pubnub::Subscribe#uri http://pubsub.pubnub.com/subscribe/demo/a/0/13992273387426345?pnsdk=PubNub-Ruby/3.5.3&uuid=i_am_a_real_time_boss_1
+D, [2014-05-04T14:15:39.618606 #17826] DEBUG -- Pubnub: Event#handle_response
+D, [2014-05-04T14:15:39.618814 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes
+D, [2014-05-04T14:15:39.618971 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Response parsed
+D, [2014-05-04T14:15:39.619073 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Not timetoken update
+D, [2014-05-04T14:15:39.619192 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Channel created
+D, [2014-05-04T14:15:39.619319 #17826] DEBUG -- Pubnub: [["***............ 5141 - 2014-05-04 11:15:39"], "13992273398278820"]
+D, [2014-05-04T14:15:39.619675 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Envelopes created
+D, [2014-05-04T14:15:39.619779 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | envelopes created
+D, [2014-05-04T14:15:39.619896 #17826] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2014-05-04T14:15:39.620001 #17826] DEBUG -- Pubnub: Event#update_app_timetoken
+D, [2014-05-04T14:15:39.620142 #17826] DEBUG -- Pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 13992273398278820
+D, [2014-05-04T14:15:39.620246 #17826] DEBUG -- Pubnub: Updated timetoken to 13992273398278820
+D, [2014-05-04T14:15:39.620347 #17826] DEBUG -- Pubnub: Event#fire_callbacks async
+D, [2014-05-04T14:15:39.620480 #17826] DEBUG -- Pubnub: We can send next request now
+D, [2014-05-04T14:15:39.756577 #17826] DEBUG -- Pubnub: Async subscription running
+D, [2014-05-04T14:15:39.756825 #17826] DEBUG -- Pubnub: origin: pubsub.pubnub.com
+D, [2014-05-04T14:15:39.756967 #17826] DEBUG -- Pubnub: timetoken: 13992273398278820
+D, [2014-05-04T14:15:39.757257 #17826] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2014-05-04T14:15:39.757452 #17826] DEBUG -- Pubnub: Event#start_event | tt: 13992273398278820; ctt 13992273398278820
+D, [2014-05-04T14:15:39.757726 #17826] DEBUG -- Pubnub: Pubnub::Subscribe#uri http://pubsub.pubnub.com/subscribe/demo/a/0/13992273398278820?pnsdk=PubNub-Ruby/3.5.3&uuid=i_am_a_real_time_boss_1
+D, [2014-05-04T14:15:40.871375 #17826] DEBUG -- Pubnub: Event#handle_response
+D, [2014-05-04T14:15:40.871578 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes
+D, [2014-05-04T14:15:40.871715 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Response parsed
+D, [2014-05-04T14:15:40.871817 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Not timetoken update
+D, [2014-05-04T14:15:40.871915 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Channel created
+D, [2014-05-04T14:15:40.872057 #17826] DEBUG -- Pubnub: [["****........... 5142 - 2014-05-04 11:15:41"], "13992273412476360"]
+D, [2014-05-04T14:15:40.872305 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Envelopes created
+D, [2014-05-04T14:15:40.872408 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | envelopes created
+D, [2014-05-04T14:15:40.872554 #17826] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2014-05-04T14:15:40.872703 #17826] DEBUG -- Pubnub: Event#update_app_timetoken
+D, [2014-05-04T14:15:40.872837 #17826] DEBUG -- Pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 13992273412476360
+D, [2014-05-04T14:15:40.872937 #17826] DEBUG -- Pubnub: Updated timetoken to 13992273412476360
+D, [2014-05-04T14:15:40.873036 #17826] DEBUG -- Pubnub: Event#fire_callbacks async
+D, [2014-05-04T14:15:40.873197 #17826] DEBUG -- Pubnub: We can send next request now
+D, [2014-05-04T14:15:41.009177 #17826] DEBUG -- Pubnub: Async subscription running
+D, [2014-05-04T14:15:41.009412 #17826] DEBUG -- Pubnub: origin: pubsub.pubnub.com
+D, [2014-05-04T14:15:41.009529 #17826] DEBUG -- Pubnub: timetoken: 13992273412476360
+D, [2014-05-04T14:15:41.009805 #17826] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2014-05-04T14:15:41.010015 #17826] DEBUG -- Pubnub: Event#start_event | tt: 13992273412476360; ctt 13992273412476360
+D, [2014-05-04T14:15:41.010319 #17826] DEBUG -- Pubnub: Pubnub::Subscribe#uri http://pubsub.pubnub.com/subscribe/demo/a/0/13992273412476360?pnsdk=PubNub-Ruby/3.5.3&uuid=i_am_a_real_time_boss_1
+D, [2014-05-04T14:15:42.076621 #17826] DEBUG -- Pubnub: Event#handle_response
+D, [2014-05-04T14:15:42.076829 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes
+D, [2014-05-04T14:15:42.076968 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Response parsed
+D, [2014-05-04T14:15:42.077070 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Not timetoken update
+D, [2014-05-04T14:15:42.077189 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Channel created
+D, [2014-05-04T14:15:42.077318 #17826] DEBUG -- Pubnub: [["*****.......... 5143 - 2014-05-04 11:15:42"], "13992273423462323"]
+D, [2014-05-04T14:15:42.077560 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Envelopes created
+D, [2014-05-04T14:15:42.077662 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | envelopes created
+D, [2014-05-04T14:15:42.077756 #17826] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2014-05-04T14:15:42.077860 #17826] DEBUG -- Pubnub: Event#update_app_timetoken
+D, [2014-05-04T14:15:42.077988 #17826] DEBUG -- Pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 13992273423462323
+D, [2014-05-04T14:15:42.078088 #17826] DEBUG -- Pubnub: Updated timetoken to 13992273423462323
+D, [2014-05-04T14:15:42.078208 #17826] DEBUG -- Pubnub: Event#fire_callbacks async
+D, [2014-05-04T14:15:42.078341 #17826] DEBUG -- Pubnub: We can send next request now
+D, [2014-05-04T14:15:42.261607 #17826] DEBUG -- Pubnub: Async subscription running
+D, [2014-05-04T14:15:42.261875 #17826] DEBUG -- Pubnub: origin: pubsub.pubnub.com
+D, [2014-05-04T14:15:42.261997 #17826] DEBUG -- Pubnub: timetoken: 13992273423462323
+D, [2014-05-04T14:15:42.262293 #17826] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2014-05-04T14:15:42.262503 #17826] DEBUG -- Pubnub: Event#start_event | tt: 13992273423462323; ctt 13992273423462323
+D, [2014-05-04T14:15:42.262808 #17826] DEBUG -- Pubnub: Pubnub::Subscribe#uri http://pubsub.pubnub.com/subscribe/demo/a/0/13992273423462323?pnsdk=PubNub-Ruby/3.5.3&uuid=i_am_a_real_time_boss_1
+D, [2014-05-04T14:15:43.249920 #17826] DEBUG -- Pubnub: Event#handle_response
+D, [2014-05-04T14:15:43.250181 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes
+D, [2014-05-04T14:15:43.250371 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Response parsed
+D, [2014-05-04T14:15:43.250478 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Not timetoken update
+D, [2014-05-04T14:15:43.250593 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Channel created
+D, [2014-05-04T14:15:43.250727 #17826] DEBUG -- Pubnub: [["******......... 5144 - 2014-05-04 11:15:43"], "13992273434235348"]
+D, [2014-05-04T14:15:43.251050 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Envelopes created
+D, [2014-05-04T14:15:43.251214 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | envelopes created
+D, [2014-05-04T14:15:43.251315 #17826] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2014-05-04T14:15:43.251419 #17826] DEBUG -- Pubnub: Event#update_app_timetoken
+D, [2014-05-04T14:15:43.251606 #17826] DEBUG -- Pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 13992273434235348
+D, [2014-05-04T14:15:43.251772 #17826] DEBUG -- Pubnub: Updated timetoken to 13992273434235348
+D, [2014-05-04T14:15:43.251927 #17826] DEBUG -- Pubnub: Event#fire_callbacks async
+D, [2014-05-04T14:15:43.252101 #17826] DEBUG -- Pubnub: We can send next request now
+D, [2014-05-04T14:15:43.265186 #17826] DEBUG -- Pubnub: Async subscription running
+D, [2014-05-04T14:15:43.265481 #17826] DEBUG -- Pubnub: origin: pubsub.pubnub.com
+D, [2014-05-04T14:15:43.265625 #17826] DEBUG -- Pubnub: timetoken: 13992273434235348
+D, [2014-05-04T14:15:43.265870 #17826] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2014-05-04T14:15:43.266008 #17826] DEBUG -- Pubnub: Event#start_event | tt: 13992273434235348; ctt 13992273434235348
+D, [2014-05-04T14:15:43.266277 #17826] DEBUG -- Pubnub: Pubnub::Subscribe#uri http://pubsub.pubnub.com/subscribe/demo/a/0/13992273434235348?pnsdk=PubNub-Ruby/3.5.3&uuid=i_am_a_real_time_boss_1
+D, [2014-05-04T14:15:44.334375 #17826] DEBUG -- Pubnub: Event#handle_response
+D, [2014-05-04T14:15:44.334578 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes
+D, [2014-05-04T14:15:44.334738 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Response parsed
+D, [2014-05-04T14:15:44.334910 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Not timetoken update
+D, [2014-05-04T14:15:44.335016 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Channel created
+D, [2014-05-04T14:15:44.335202 #17826] DEBUG -- Pubnub: [["*******........ 5145 - 2014-05-04 11:15:44"], "13992273445087123"]
+D, [2014-05-04T14:15:44.335461 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Envelopes created
+D, [2014-05-04T14:15:44.335563 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | envelopes created
+D, [2014-05-04T14:15:44.335680 #17826] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2014-05-04T14:15:44.335786 #17826] DEBUG -- Pubnub: Event#update_app_timetoken
+D, [2014-05-04T14:15:44.335916 #17826] DEBUG -- Pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 13992273445087123
+D, [2014-05-04T14:15:44.336059 #17826] DEBUG -- Pubnub: Updated timetoken to 13992273445087123
+D, [2014-05-04T14:15:44.336185 #17826] DEBUG -- Pubnub: Event#fire_callbacks async
+D, [2014-05-04T14:15:44.336368 #17826] DEBUG -- Pubnub: We can send next request now
+D, [2014-05-04T14:15:44.517826 #17826] DEBUG -- Pubnub: Async subscription running
+D, [2014-05-04T14:15:44.518069 #17826] DEBUG -- Pubnub: origin: pubsub.pubnub.com
+D, [2014-05-04T14:15:44.518212 #17826] DEBUG -- Pubnub: timetoken: 13992273445087123
+D, [2014-05-04T14:15:44.518456 #17826] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2014-05-04T14:15:44.518600 #17826] DEBUG -- Pubnub: Event#start_event | tt: 13992273445087123; ctt 13992273445087123
+D, [2014-05-04T14:15:44.519030 #17826] DEBUG -- Pubnub: Pubnub::Subscribe#uri http://pubsub.pubnub.com/subscribe/demo/a/0/13992273445087123?pnsdk=PubNub-Ruby/3.5.3&uuid=i_am_a_real_time_boss_1
+D, [2014-05-04T14:15:45.355194 #17826] DEBUG -- Pubnub: Event#handle_response
+D, [2014-05-04T14:15:45.355407 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes
+D, [2014-05-04T14:15:45.355540 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Response parsed
+D, [2014-05-04T14:15:45.355639 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Not timetoken update
+D, [2014-05-04T14:15:45.355737 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Channel created
+D, [2014-05-04T14:15:45.355875 #17826] DEBUG -- Pubnub: [["********....... 5146 - 2014-05-04 11:15:45"], "13992273455931390"]
+D, [2014-05-04T14:15:45.356110 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Envelopes created
+D, [2014-05-04T14:15:45.356232 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | envelopes created
+D, [2014-05-04T14:15:45.356326 #17826] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2014-05-04T14:15:45.356427 #17826] DEBUG -- Pubnub: Event#update_app_timetoken
+D, [2014-05-04T14:15:45.356554 #17826] DEBUG -- Pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 13992273455931390
+D, [2014-05-04T14:15:45.356652 #17826] DEBUG -- Pubnub: Updated timetoken to 13992273455931390
+D, [2014-05-04T14:15:45.356750 #17826] DEBUG -- Pubnub: Event#fire_callbacks async
+D, [2014-05-04T14:15:45.356883 #17826] DEBUG -- Pubnub: We can send next request now
+D, [2014-05-04T14:15:45.519915 #17826] DEBUG -- Pubnub: Async subscription running
+D, [2014-05-04T14:15:45.520183 #17826] DEBUG -- Pubnub: origin: pubsub.pubnub.com
+D, [2014-05-04T14:15:45.520305 #17826] DEBUG -- Pubnub: timetoken: 13992273455931390
+D, [2014-05-04T14:15:45.520582 #17826] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2014-05-04T14:15:45.520776 #17826] DEBUG -- Pubnub: Event#start_event | tt: 13992273455931390; ctt 13992273455931390
+D, [2014-05-04T14:15:45.521066 #17826] DEBUG -- Pubnub: Pubnub::Subscribe#uri http://pubsub.pubnub.com/subscribe/demo/a/0/13992273455931390?pnsdk=PubNub-Ruby/3.5.3&uuid=i_am_a_real_time_boss_1
+D, [2014-05-04T14:15:46.476000 #17826] DEBUG -- Pubnub: Event#handle_response
+D, [2014-05-04T14:15:46.476224 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes
+D, [2014-05-04T14:15:46.476363 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Response parsed
+D, [2014-05-04T14:15:46.476463 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Not timetoken update
+D, [2014-05-04T14:15:46.476561 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Channel created
+D, [2014-05-04T14:15:46.476708 #17826] DEBUG -- Pubnub: [["*********...... 5147 - 2014-05-04 11:15:46"], "13992273466791259"]
+D, [2014-05-04T14:15:46.476935 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Envelopes created
+D, [2014-05-04T14:15:46.477142 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | envelopes created
+D, [2014-05-04T14:15:46.477247 #17826] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2014-05-04T14:15:46.477350 #17826] DEBUG -- Pubnub: Event#update_app_timetoken
+D, [2014-05-04T14:15:46.477477 #17826] DEBUG -- Pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 13992273466791259
+D, [2014-05-04T14:15:46.477589 #17826] DEBUG -- Pubnub: Updated timetoken to 13992273466791259
+D, [2014-05-04T14:15:46.477699 #17826] DEBUG -- Pubnub: Event#fire_callbacks async
+D, [2014-05-04T14:15:46.477834 #17826] DEBUG -- Pubnub: We can send next request now
+D, [2014-05-04T14:15:46.521918 #17826] DEBUG -- Pubnub: Async subscription running
+D, [2014-05-04T14:15:46.522194 #17826] DEBUG -- Pubnub: origin: pubsub.pubnub.com
+D, [2014-05-04T14:15:46.522340 #17826] DEBUG -- Pubnub: timetoken: 13992273466791259
+D, [2014-05-04T14:15:46.522646 #17826] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2014-05-04T14:15:46.522860 #17826] DEBUG -- Pubnub: Event#start_event | tt: 13992273466791259; ctt 13992273466791259
+D, [2014-05-04T14:15:46.523157 #17826] DEBUG -- Pubnub: Pubnub::Subscribe#uri http://pubsub.pubnub.com/subscribe/demo/a/0/13992273466791259?pnsdk=PubNub-Ruby/3.5.3&uuid=i_am_a_real_time_boss_1
+D, [2014-05-04T14:15:47.498497 #17826] DEBUG -- Pubnub: Event#handle_response
+D, [2014-05-04T14:15:47.498706 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes
+D, [2014-05-04T14:15:47.498843 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Response parsed
+D, [2014-05-04T14:15:47.498943 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Not timetoken update
+D, [2014-05-04T14:15:47.499041 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Channel created
+D, [2014-05-04T14:15:47.499180 #17826] DEBUG -- Pubnub: [["**********..... 5148 - 2014-05-04 11:15:47"], "13992273477639856"]
+D, [2014-05-04T14:15:47.499435 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Envelopes created
+D, [2014-05-04T14:15:47.499540 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | envelopes created
+D, [2014-05-04T14:15:47.499633 #17826] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2014-05-04T14:15:47.499737 #17826] DEBUG -- Pubnub: Event#update_app_timetoken
+D, [2014-05-04T14:15:47.499867 #17826] DEBUG -- Pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 13992273477639856
+D, [2014-05-04T14:15:47.499964 #17826] DEBUG -- Pubnub: Updated timetoken to 13992273477639856
+D, [2014-05-04T14:15:47.500064 #17826] DEBUG -- Pubnub: Event#fire_callbacks async
+D, [2014-05-04T14:15:47.500213 #17826] DEBUG -- Pubnub: We can send next request now
+D, [2014-05-04T14:15:47.523974 #17826] DEBUG -- Pubnub: Async subscription running
+D, [2014-05-04T14:15:47.524251 #17826] DEBUG -- Pubnub: origin: pubsub.pubnub.com
+D, [2014-05-04T14:15:47.524368 #17826] DEBUG -- Pubnub: timetoken: 13992273477639856
+D, [2014-05-04T14:15:47.524663 #17826] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2014-05-04T14:15:47.524871 #17826] DEBUG -- Pubnub: Event#start_event | tt: 13992273477639856; ctt 13992273477639856
+D, [2014-05-04T14:15:47.525151 #17826] DEBUG -- Pubnub: Pubnub::Subscribe#uri http://pubsub.pubnub.com/subscribe/demo/a/0/13992273477639856?pnsdk=PubNub-Ruby/3.5.3&uuid=i_am_a_real_time_boss_1
+D, [2014-05-04T14:15:48.624242 #17826] DEBUG -- Pubnub: Event#handle_response
+D, [2014-05-04T14:15:48.624445 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes
+D, [2014-05-04T14:15:48.624580 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Response parsed
+D, [2014-05-04T14:15:48.624679 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Not timetoken update
+D, [2014-05-04T14:15:48.624777 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Channel created
+D, [2014-05-04T14:15:48.624900 #17826] DEBUG -- Pubnub: [["***********.... 5149 - 2014-05-04 11:15:48"], "13992273488933329"]
+D, [2014-05-04T14:15:48.625161 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Envelopes created
+D, [2014-05-04T14:15:48.625289 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | envelopes created
+D, [2014-05-04T14:15:48.625387 #17826] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2014-05-04T14:15:48.625489 #17826] DEBUG -- Pubnub: Event#update_app_timetoken
+D, [2014-05-04T14:15:48.625617 #17826] DEBUG -- Pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 13992273488933329
+D, [2014-05-04T14:15:48.625715 #17826] DEBUG -- Pubnub: Updated timetoken to 13992273488933329
+D, [2014-05-04T14:15:48.625816 #17826] DEBUG -- Pubnub: Event#fire_callbacks async
+D, [2014-05-04T14:15:48.625980 #17826] DEBUG -- Pubnub: We can send next request now
+D, [2014-05-04T14:15:48.776694 #17826] DEBUG -- Pubnub: Async subscription running
+D, [2014-05-04T14:15:48.776965 #17826] DEBUG -- Pubnub: origin: pubsub.pubnub.com
+D, [2014-05-04T14:15:48.777086 #17826] DEBUG -- Pubnub: timetoken: 13992273488933329
+D, [2014-05-04T14:15:48.777471 #17826] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2014-05-04T14:15:48.777661 #17826] DEBUG -- Pubnub: Event#start_event | tt: 13992273488933329; ctt 13992273488933329
+D, [2014-05-04T14:15:48.777964 #17826] DEBUG -- Pubnub: Pubnub::Subscribe#uri http://pubsub.pubnub.com/subscribe/demo/a/0/13992273488933329?pnsdk=PubNub-Ruby/3.5.3&uuid=i_am_a_real_time_boss_1
+D, [2014-05-04T14:15:49.848740 #17826] DEBUG -- Pubnub: Event#handle_response
+D, [2014-05-04T14:15:49.848996 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes
+D, [2014-05-04T14:15:49.849200 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Response parsed
+D, [2014-05-04T14:15:49.849313 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Not timetoken update
+D, [2014-05-04T14:15:49.849460 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Channel created
+D, [2014-05-04T14:15:49.849591 #17826] DEBUG -- Pubnub: [["************... 5150 - 2014-05-04 11:15:49"], "13992273499323877"]
+D, [2014-05-04T14:15:49.849875 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Envelopes created
+D, [2014-05-04T14:15:49.849978 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | envelopes created
+D, [2014-05-04T14:15:49.850072 #17826] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2014-05-04T14:15:49.850194 #17826] DEBUG -- Pubnub: Event#update_app_timetoken
+D, [2014-05-04T14:15:49.850325 #17826] DEBUG -- Pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 13992273499323877
+D, [2014-05-04T14:15:49.850425 #17826] DEBUG -- Pubnub: Updated timetoken to 13992273499323877
+D, [2014-05-04T14:15:49.850526 #17826] DEBUG -- Pubnub: Event#fire_callbacks async
+D, [2014-05-04T14:15:49.850675 #17826] DEBUG -- Pubnub: We can send next request now
+D, [2014-05-04T14:15:50.029384 #17826] DEBUG -- Pubnub: Async subscription running
+D, [2014-05-04T14:15:50.029715 #17826] DEBUG -- Pubnub: origin: pubsub.pubnub.com
+D, [2014-05-04T14:15:50.029845 #17826] DEBUG -- Pubnub: timetoken: 13992273499323877
+D, [2014-05-04T14:15:50.030176 #17826] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2014-05-04T14:15:50.030392 #17826] DEBUG -- Pubnub: Event#start_event | tt: 13992273499323877; ctt 13992273499323877
+D, [2014-05-04T14:15:50.030671 #17826] DEBUG -- Pubnub: Pubnub::Subscribe#uri http://pubsub.pubnub.com/subscribe/demo/a/0/13992273499323877?pnsdk=PubNub-Ruby/3.5.3&uuid=i_am_a_real_time_boss_1
+D, [2014-05-04T14:15:50.775955 #17826] DEBUG -- Pubnub: Event#handle_response
+D, [2014-05-04T14:15:50.776261 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes
+D, [2014-05-04T14:15:50.776405 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Response parsed
+D, [2014-05-04T14:15:50.776506 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Not timetoken update
+D, [2014-05-04T14:15:50.776604 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Channel created
+D, [2014-05-04T14:15:50.776745 #17826] DEBUG -- Pubnub: [["*************.. 5151 - 2014-05-04 11:15:50"], "13992273510505232"]
+D, [2014-05-04T14:15:50.776976 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Envelopes created
+D, [2014-05-04T14:15:50.777095 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | envelopes created
+D, [2014-05-04T14:15:50.777244 #17826] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2014-05-04T14:15:50.777382 #17826] DEBUG -- Pubnub: Event#update_app_timetoken
+D, [2014-05-04T14:15:50.777513 #17826] DEBUG -- Pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 13992273510505232
+D, [2014-05-04T14:15:50.777611 #17826] DEBUG -- Pubnub: Updated timetoken to 13992273510505232
+D, [2014-05-04T14:15:50.777710 #17826] DEBUG -- Pubnub: Event#fire_callbacks async
+D, [2014-05-04T14:15:50.777871 #17826] DEBUG -- Pubnub: We can send next request now
+D, [2014-05-04T14:15:50.781161 #17826] DEBUG -- Pubnub: Async subscription running
+D, [2014-05-04T14:15:50.781437 #17826] DEBUG -- Pubnub: origin: pubsub.pubnub.com
+D, [2014-05-04T14:15:50.781565 #17826] DEBUG -- Pubnub: timetoken: 13992273510505232
+D, [2014-05-04T14:15:50.781849 #17826] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2014-05-04T14:15:50.782074 #17826] DEBUG -- Pubnub: Event#start_event | tt: 13992273510505232; ctt 13992273510505232
+D, [2014-05-04T14:15:50.782377 #17826] DEBUG -- Pubnub: Pubnub::Subscribe#uri http://pubsub.pubnub.com/subscribe/demo/a/0/13992273510505232?pnsdk=PubNub-Ruby/3.5.3&uuid=i_am_a_real_time_boss_1
+D, [2014-05-04T14:15:51.936262 #17826] DEBUG -- Pubnub: Event#handle_response
+D, [2014-05-04T14:15:51.936463 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes
+D, [2014-05-04T14:15:51.936599 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Response parsed
+D, [2014-05-04T14:15:51.936698 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Not timetoken update
+D, [2014-05-04T14:15:51.936798 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Channel created
+D, [2014-05-04T14:15:51.936939 #17826] DEBUG -- Pubnub: [["**************. 5152 - 2014-05-04 11:15:52"], "13992273521585740"]
+D, [2014-05-04T14:15:51.937208 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Envelopes created
+D, [2014-05-04T14:15:51.937324 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | envelopes created
+D, [2014-05-04T14:15:51.937418 #17826] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2014-05-04T14:15:51.937520 #17826] DEBUG -- Pubnub: Event#update_app_timetoken
+D, [2014-05-04T14:15:51.937648 #17826] DEBUG -- Pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 13992273521585740
+D, [2014-05-04T14:15:51.937746 #17826] DEBUG -- Pubnub: Updated timetoken to 13992273521585740
+D, [2014-05-04T14:15:51.937846 #17826] DEBUG -- Pubnub: Event#fire_callbacks async
+D, [2014-05-04T14:15:51.938035 #17826] DEBUG -- Pubnub: We can send next request now
+D, [2014-05-04T14:15:52.033708 #17826] DEBUG -- Pubnub: Async subscription running
+D, [2014-05-04T14:15:52.033953 #17826] DEBUG -- Pubnub: origin: pubsub.pubnub.com
+D, [2014-05-04T14:15:52.034066 #17826] DEBUG -- Pubnub: timetoken: 13992273521585740
+D, [2014-05-04T14:15:52.034345 #17826] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2014-05-04T14:15:52.034537 #17826] DEBUG -- Pubnub: Event#start_event | tt: 13992273521585740; ctt 13992273521585740
+D, [2014-05-04T14:15:52.034862 #17826] DEBUG -- Pubnub: Pubnub::Subscribe#uri http://pubsub.pubnub.com/subscribe/demo/a/0/13992273521585740?pnsdk=PubNub-Ruby/3.5.3&uuid=i_am_a_real_time_boss_1
+D, [2014-05-04T14:15:52.819326 #17826] DEBUG -- Pubnub: Event#handle_response
+D, [2014-05-04T14:15:52.819564 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes
+D, [2014-05-04T14:15:52.819703 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Response parsed
+D, [2014-05-04T14:15:52.819802 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Not timetoken update
+D, [2014-05-04T14:15:52.819899 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Channel created
+D, [2014-05-04T14:15:52.820052 #17826] DEBUG -- Pubnub: [["*************** 5153 - 2014-05-04 11:15:53"], "13992273531924960"]
+D, [2014-05-04T14:15:52.820305 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Envelopes created
+D, [2014-05-04T14:15:52.820424 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | envelopes created
+D, [2014-05-04T14:15:52.820540 #17826] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2014-05-04T14:15:52.820645 #17826] DEBUG -- Pubnub: Event#update_app_timetoken
+D, [2014-05-04T14:15:52.820797 #17826] DEBUG -- Pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 13992273531924960
+D, [2014-05-04T14:15:52.820898 #17826] DEBUG -- Pubnub: Updated timetoken to 13992273531924960
+D, [2014-05-04T14:15:52.820998 #17826] DEBUG -- Pubnub: Event#fire_callbacks async
+D, [2014-05-04T14:15:52.821145 #17826] DEBUG -- Pubnub: We can send next request now
+D, [2014-05-04T14:15:53.037515 #17826] DEBUG -- Pubnub: Async subscription running
+D, [2014-05-04T14:15:53.037784 #17826] DEBUG -- Pubnub: origin: pubsub.pubnub.com
+D, [2014-05-04T14:15:53.037926 #17826] DEBUG -- Pubnub: timetoken: 13992273531924960
+D, [2014-05-04T14:15:53.038271 #17826] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2014-05-04T14:15:53.038457 #17826] DEBUG -- Pubnub: Event#start_event | tt: 13992273531924960; ctt 13992273531924960
+D, [2014-05-04T14:15:53.038754 #17826] DEBUG -- Pubnub: Pubnub::Subscribe#uri http://pubsub.pubnub.com/subscribe/demo/a/0/13992273531924960?pnsdk=PubNub-Ruby/3.5.3&uuid=i_am_a_real_time_boss_1
+D, [2014-05-04T14:15:54.052318 #17826] DEBUG -- Pubnub: Event#handle_response
+D, [2014-05-04T14:15:54.052529 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes
+D, [2014-05-04T14:15:54.052666 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Response parsed
+D, [2014-05-04T14:15:54.052766 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Not timetoken update
+D, [2014-05-04T14:15:54.052904 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Channel created
+D, [2014-05-04T14:15:54.053037 #17826] DEBUG -- Pubnub: [["*.............. 5154 - 2014-05-04 11:15:54"], "13992273542719953"]
+D, [2014-05-04T14:15:54.053279 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Envelopes created
+D, [2014-05-04T14:15:54.053409 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | envelopes created
+D, [2014-05-04T14:15:54.053504 #17826] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2014-05-04T14:15:54.053606 #17826] DEBUG -- Pubnub: Event#update_app_timetoken
+D, [2014-05-04T14:15:54.053733 #17826] DEBUG -- Pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 13992273542719953
+D, [2014-05-04T14:15:54.053831 #17826] DEBUG -- Pubnub: Updated timetoken to 13992273542719953
+D, [2014-05-04T14:15:54.053956 #17826] DEBUG -- Pubnub: Event#fire_callbacks async
+D, [2014-05-04T14:15:54.054117 #17826] DEBUG -- Pubnub: We can send next request now
+D, [2014-05-04T14:15:54.290084 #17826] DEBUG -- Pubnub: Async subscription running
+D, [2014-05-04T14:15:54.290288 #17826] DEBUG -- Pubnub: origin: pubsub.pubnub.com
+D, [2014-05-04T14:15:54.290393 #17826] DEBUG -- Pubnub: timetoken: 13992273542719953
+D, [2014-05-04T14:15:54.290643 #17826] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2014-05-04T14:15:54.290862 #17826] DEBUG -- Pubnub: Event#start_event | tt: 13992273542719953; ctt 13992273542719953
+D, [2014-05-04T14:15:54.291178 #17826] DEBUG -- Pubnub: Pubnub::Subscribe#uri http://pubsub.pubnub.com/subscribe/demo/a/0/13992273542719953?pnsdk=PubNub-Ruby/3.5.3&uuid=i_am_a_real_time_boss_1
+D, [2014-05-04T14:15:55.178937 #17826] DEBUG -- Pubnub: Event#handle_response
+D, [2014-05-04T14:15:55.179162 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes
+D, [2014-05-04T14:15:55.179303 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Response parsed
+D, [2014-05-04T14:15:55.179427 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Not timetoken update
+D, [2014-05-04T14:15:55.179529 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Channel created
+D, [2014-05-04T14:15:55.179670 #17826] DEBUG -- Pubnub: [["**............. 5155 - 2014-05-04 11:15:55"], "13992273553565118"]
+D, [2014-05-04T14:15:55.179901 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Envelopes created
+D, [2014-05-04T14:15:55.179999 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | envelopes created
+D, [2014-05-04T14:15:55.180112 #17826] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2014-05-04T14:15:55.180239 #17826] DEBUG -- Pubnub: Event#update_app_timetoken
+D, [2014-05-04T14:15:55.180367 #17826] DEBUG -- Pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 13992273553565118
+D, [2014-05-04T14:15:55.180465 #17826] DEBUG -- Pubnub: Updated timetoken to 13992273553565118
+D, [2014-05-04T14:15:55.180565 #17826] DEBUG -- Pubnub: Event#fire_callbacks async
+D, [2014-05-04T14:15:55.180697 #17826] DEBUG -- Pubnub: We can send next request now
+D, [2014-05-04T14:15:55.291909 #17826] DEBUG -- Pubnub: Async subscription running
+D, [2014-05-04T14:15:55.292176 #17826] DEBUG -- Pubnub: origin: pubsub.pubnub.com
+D, [2014-05-04T14:15:55.292299 #17826] DEBUG -- Pubnub: timetoken: 13992273553565118
+D, [2014-05-04T14:15:55.292572 #17826] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2014-05-04T14:15:55.292756 #17826] DEBUG -- Pubnub: Event#start_event | tt: 13992273553565118; ctt 13992273553565118
+D, [2014-05-04T14:15:55.293021 #17826] DEBUG -- Pubnub: Pubnub::Subscribe#uri http://pubsub.pubnub.com/subscribe/demo/a/0/13992273553565118?pnsdk=PubNub-Ruby/3.5.3&uuid=i_am_a_real_time_boss_1
+D, [2014-05-04T14:15:56.210632 #17826] DEBUG -- Pubnub: Event#handle_response
+D, [2014-05-04T14:15:56.210841 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes
+D, [2014-05-04T14:15:56.210981 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Response parsed
+D, [2014-05-04T14:15:56.211081 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Not timetoken update
+D, [2014-05-04T14:15:56.211200 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Channel created
+D, [2014-05-04T14:15:56.211325 #17826] DEBUG -- Pubnub: [["***............ 5156 - 2014-05-04 11:15:56"], "13992273564500791"]
+D, [2014-05-04T14:15:56.211550 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Envelopes created
+D, [2014-05-04T14:15:56.211649 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | envelopes created
+D, [2014-05-04T14:15:56.211743 #17826] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2014-05-04T14:15:56.211844 #17826] DEBUG -- Pubnub: Event#update_app_timetoken
+D, [2014-05-04T14:15:56.211972 #17826] DEBUG -- Pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 13992273564500791
+D, [2014-05-04T14:15:56.212074 #17826] DEBUG -- Pubnub: Updated timetoken to 13992273564500791
+D, [2014-05-04T14:15:56.212192 #17826] DEBUG -- Pubnub: Event#fire_callbacks async
+D, [2014-05-04T14:15:56.212326 #17826] DEBUG -- Pubnub: We can send next request now
+D, [2014-05-04T14:15:56.293892 #17826] DEBUG -- Pubnub: Async subscription running
+D, [2014-05-04T14:15:56.294167 #17826] DEBUG -- Pubnub: origin: pubsub.pubnub.com
+D, [2014-05-04T14:15:56.294291 #17826] DEBUG -- Pubnub: timetoken: 13992273564500791
+D, [2014-05-04T14:15:56.294569 #17826] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2014-05-04T14:15:56.294752 #17826] DEBUG -- Pubnub: Event#start_event | tt: 13992273564500791; ctt 13992273564500791
+D, [2014-05-04T14:15:56.295015 #17826] DEBUG -- Pubnub: Pubnub::Subscribe#uri http://pubsub.pubnub.com/subscribe/demo/a/0/13992273564500791?pnsdk=PubNub-Ruby/3.5.3&uuid=i_am_a_real_time_boss_1
+D, [2014-05-04T14:15:57.235006 #17826] DEBUG -- Pubnub: Event#handle_response
+D, [2014-05-04T14:15:57.235212 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes
+D, [2014-05-04T14:15:57.235365 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Response parsed
+D, [2014-05-04T14:15:57.235538 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Not timetoken update
+D, [2014-05-04T14:15:57.235694 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Channel created
+D, [2014-05-04T14:15:57.235868 #17826] DEBUG -- Pubnub: [["****........... 5157 - 2014-05-04 11:15:57"], "13992273576027617"]
+D, [2014-05-04T14:15:57.236095 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Envelopes created
+D, [2014-05-04T14:15:57.236217 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | envelopes created
+D, [2014-05-04T14:15:57.236313 #17826] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2014-05-04T14:15:57.236433 #17826] DEBUG -- Pubnub: Event#update_app_timetoken
+D, [2014-05-04T14:15:57.236584 #17826] DEBUG -- Pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 13992273576027617
+D, [2014-05-04T14:15:57.236693 #17826] DEBUG -- Pubnub: Updated timetoken to 13992273576027617
+D, [2014-05-04T14:15:57.236793 #17826] DEBUG -- Pubnub: Event#fire_callbacks async
+D, [2014-05-04T14:15:57.236924 #17826] DEBUG -- Pubnub: We can send next request now
+D, [2014-05-04T14:15:57.295820 #17826] DEBUG -- Pubnub: Async subscription running
+D, [2014-05-04T14:15:57.296067 #17826] DEBUG -- Pubnub: origin: pubsub.pubnub.com
+D, [2014-05-04T14:15:57.296264 #17826] DEBUG -- Pubnub: timetoken: 13992273576027617
+D, [2014-05-04T14:15:57.296575 #17826] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2014-05-04T14:15:57.296758 #17826] DEBUG -- Pubnub: Event#start_event | tt: 13992273576027617; ctt 13992273576027617
+D, [2014-05-04T14:15:57.297021 #17826] DEBUG -- Pubnub: Pubnub::Subscribe#uri http://pubsub.pubnub.com/subscribe/demo/a/0/13992273576027617?pnsdk=PubNub-Ruby/3.5.3&uuid=i_am_a_real_time_boss_1
+D, [2014-05-04T14:15:58.373145 #17826] DEBUG -- Pubnub: Event#handle_response
+D, [2014-05-04T14:15:58.373524 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes
+D, [2014-05-04T14:15:58.373667 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Response parsed
+D, [2014-05-04T14:15:58.373772 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Not timetoken update
+D, [2014-05-04T14:15:58.373872 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Channel created
+D, [2014-05-04T14:15:58.373997 #17826] DEBUG -- Pubnub: [["*****.......... 5158 - 2014-05-04 11:15:58"], "13992273586178434"]
+D, [2014-05-04T14:15:58.374234 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Envelopes created
+D, [2014-05-04T14:15:58.374341 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | envelopes created
+D, [2014-05-04T14:15:58.374434 #17826] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2014-05-04T14:15:58.374536 #17826] DEBUG -- Pubnub: Event#update_app_timetoken
+D, [2014-05-04T14:15:58.374665 #17826] DEBUG -- Pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 13992273586178434
+D, [2014-05-04T14:15:58.374765 #17826] DEBUG -- Pubnub: Updated timetoken to 13992273586178434
+D, [2014-05-04T14:15:58.374864 #17826] DEBUG -- Pubnub: Event#fire_callbacks async
+D, [2014-05-04T14:15:58.375032 #17826] DEBUG -- Pubnub: We can send next request now
+D, [2014-05-04T14:15:58.548401 #17826] DEBUG -- Pubnub: Async subscription running
+D, [2014-05-04T14:15:58.548649 #17826] DEBUG -- Pubnub: origin: pubsub.pubnub.com
+D, [2014-05-04T14:15:58.548765 #17826] DEBUG -- Pubnub: timetoken: 13992273586178434
+D, [2014-05-04T14:15:58.549054 #17826] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2014-05-04T14:15:58.549269 #17826] DEBUG -- Pubnub: Event#start_event | tt: 13992273586178434; ctt 13992273586178434
+D, [2014-05-04T14:15:58.549537 #17826] DEBUG -- Pubnub: Pubnub::Subscribe#uri http://pubsub.pubnub.com/subscribe/demo/a/0/13992273586178434?pnsdk=PubNub-Ruby/3.5.3&uuid=i_am_a_real_time_boss_1
+D, [2014-05-04T14:15:59.483966 #17826] DEBUG -- Pubnub: Event#handle_response
+D, [2014-05-04T14:15:59.484182 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes
+D, [2014-05-04T14:15:59.484323 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Response parsed
+D, [2014-05-04T14:15:59.484423 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Not timetoken update
+D, [2014-05-04T14:15:59.484520 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Channel created
+D, [2014-05-04T14:15:59.484656 #17826] DEBUG -- Pubnub: [["******......... 5159 - 2014-05-04 11:15:59"], "13992273597039771"]
+D, [2014-05-04T14:15:59.484890 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Envelopes created
+D, [2014-05-04T14:15:59.484989 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | envelopes created
+D, [2014-05-04T14:15:59.485081 #17826] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2014-05-04T14:15:59.485220 #17826] DEBUG -- Pubnub: Event#update_app_timetoken
+D, [2014-05-04T14:15:59.485353 #17826] DEBUG -- Pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 13992273597039771
+D, [2014-05-04T14:15:59.485452 #17826] DEBUG -- Pubnub: Updated timetoken to 13992273597039771
+D, [2014-05-04T14:15:59.485552 #17826] DEBUG -- Pubnub: Event#fire_callbacks async
+D, [2014-05-04T14:15:59.485720 #17826] DEBUG -- Pubnub: We can send next request now
+D, [2014-05-04T14:15:59.550322 #17826] DEBUG -- Pubnub: Async subscription running
+D, [2014-05-04T14:15:59.550571 #17826] DEBUG -- Pubnub: origin: pubsub.pubnub.com
+D, [2014-05-04T14:15:59.550686 #17826] DEBUG -- Pubnub: timetoken: 13992273597039771
+D, [2014-05-04T14:15:59.550991 #17826] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2014-05-04T14:15:59.551210 #17826] DEBUG -- Pubnub: Event#start_event | tt: 13992273597039771; ctt 13992273597039771
+D, [2014-05-04T14:15:59.551649 #17826] DEBUG -- Pubnub: Pubnub::Subscribe#uri http://pubsub.pubnub.com/subscribe/demo/a/0/13992273597039771?pnsdk=PubNub-Ruby/3.5.3&uuid=i_am_a_real_time_boss_1
+D, [2014-05-04T14:16:00.610485 #17826] DEBUG -- Pubnub: Event#handle_response
+D, [2014-05-04T14:16:00.610688 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes
+D, [2014-05-04T14:16:00.610828 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Response parsed
+D, [2014-05-04T14:16:00.610930 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Not timetoken update
+D, [2014-05-04T14:16:00.611029 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Channel created
+D, [2014-05-04T14:16:00.611167 #17826] DEBUG -- Pubnub: [["*******........ 5160 - 2014-05-04 11:16:00"], "13992273607846359"]
+D, [2014-05-04T14:16:00.611398 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Envelopes created
+D, [2014-05-04T14:16:00.611499 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | envelopes created
+D, [2014-05-04T14:16:00.611592 #17826] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2014-05-04T14:16:00.611695 #17826] DEBUG -- Pubnub: Event#update_app_timetoken
+D, [2014-05-04T14:16:00.611823 #17826] DEBUG -- Pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 13992273607846359
+D, [2014-05-04T14:16:00.611924 #17826] DEBUG -- Pubnub: Updated timetoken to 13992273607846359
+D, [2014-05-04T14:16:00.612150 #17826] DEBUG -- Pubnub: Event#fire_callbacks async
+D, [2014-05-04T14:16:00.612295 #17826] DEBUG -- Pubnub: We can send next request now
+D, [2014-05-04T14:16:00.802873 #17826] DEBUG -- Pubnub: Async subscription running
+D, [2014-05-04T14:16:00.803178 #17826] DEBUG -- Pubnub: origin: pubsub.pubnub.com
+D, [2014-05-04T14:16:00.803311 #17826] DEBUG -- Pubnub: timetoken: 13992273607846359
+D, [2014-05-04T14:16:00.803618 #17826] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2014-05-04T14:16:00.803802 #17826] DEBUG -- Pubnub: Event#start_event | tt: 13992273607846359; ctt 13992273607846359
+D, [2014-05-04T14:16:00.804074 #17826] DEBUG -- Pubnub: Pubnub::Subscribe#uri http://pubsub.pubnub.com/subscribe/demo/a/0/13992273607846359?pnsdk=PubNub-Ruby/3.5.3&uuid=i_am_a_real_time_boss_1
+D, [2014-05-04T14:16:01.636337 #17826] DEBUG -- Pubnub: Event#handle_response
+D, [2014-05-04T14:16:01.636549 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes
+D, [2014-05-04T14:16:01.636666 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Response parsed
+D, [2014-05-04T14:16:01.636745 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Not timetoken update
+D, [2014-05-04T14:16:01.636820 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Channel created
+D, [2014-05-04T14:16:01.636914 #17826] DEBUG -- Pubnub: [["********....... 5161 - 2014-05-04 11:16:01"], "13992273618747849"]
+D, [2014-05-04T14:16:01.637091 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Envelopes created
+D, [2014-05-04T14:16:01.637195 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | envelopes created
+D, [2014-05-04T14:16:01.637267 #17826] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2014-05-04T14:16:01.637344 #17826] DEBUG -- Pubnub: Event#update_app_timetoken
+D, [2014-05-04T14:16:01.637510 #17826] DEBUG -- Pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 13992273618747849
+D, [2014-05-04T14:16:01.637588 #17826] DEBUG -- Pubnub: Updated timetoken to 13992273618747849
+D, [2014-05-04T14:16:01.637662 #17826] DEBUG -- Pubnub: Event#fire_callbacks async
+D, [2014-05-04T14:16:01.637760 #17826] DEBUG -- Pubnub: We can send next request now
+D, [2014-05-04T14:16:01.805164 #17826] DEBUG -- Pubnub: Async subscription running
+D, [2014-05-04T14:16:01.805430 #17826] DEBUG -- Pubnub: origin: pubsub.pubnub.com
+D, [2014-05-04T14:16:01.805562 #17826] DEBUG -- Pubnub: timetoken: 13992273618747849
+D, [2014-05-04T14:16:01.805837 #17826] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2014-05-04T14:16:01.806057 #17826] DEBUG -- Pubnub: Event#start_event | tt: 13992273618747849; ctt 13992273618747849
+D, [2014-05-04T14:16:01.806371 #17826] DEBUG -- Pubnub: Pubnub::Subscribe#uri http://pubsub.pubnub.com/subscribe/demo/a/0/13992273618747849?pnsdk=PubNub-Ruby/3.5.3&uuid=i_am_a_real_time_boss_1
+D, [2014-05-04T14:16:02.755566 #17826] DEBUG -- Pubnub: Event#handle_response
+D, [2014-05-04T14:16:02.755738 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes
+D, [2014-05-04T14:16:02.755841 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Response parsed
+D, [2014-05-04T14:16:02.755916 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Not timetoken update
+D, [2014-05-04T14:16:02.755989 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Channel created
+D, [2014-05-04T14:16:02.756080 #17826] DEBUG -- Pubnub: [["*********...... 5162 - 2014-05-04 11:16:02"], "13992273629563133"]
+D, [2014-05-04T14:16:02.756265 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Envelopes created
+D, [2014-05-04T14:16:02.756340 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | envelopes created
+D, [2014-05-04T14:16:02.756407 #17826] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2014-05-04T14:16:02.756484 #17826] DEBUG -- Pubnub: Event#update_app_timetoken
+D, [2014-05-04T14:16:02.756580 #17826] DEBUG -- Pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 13992273629563133
+D, [2014-05-04T14:16:02.756652 #17826] DEBUG -- Pubnub: Updated timetoken to 13992273629563133
+D, [2014-05-04T14:16:02.756725 #17826] DEBUG -- Pubnub: Event#fire_callbacks async
+D, [2014-05-04T14:16:02.756847 #17826] DEBUG -- Pubnub: We can send next request now
+D, [2014-05-04T14:16:02.807413 #17826] DEBUG -- Pubnub: Async subscription running
+D, [2014-05-04T14:16:02.807604 #17826] DEBUG -- Pubnub: origin: pubsub.pubnub.com
+D, [2014-05-04T14:16:02.807692 #17826] DEBUG -- Pubnub: timetoken: 13992273629563133
+D, [2014-05-04T14:16:02.807972 #17826] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2014-05-04T14:16:02.808076 #17826] DEBUG -- Pubnub: Event#start_event | tt: 13992273629563133; ctt 13992273629563133
+D, [2014-05-04T14:16:02.808299 #17826] DEBUG -- Pubnub: Pubnub::Subscribe#uri http://pubsub.pubnub.com/subscribe/demo/a/0/13992273629563133?pnsdk=PubNub-Ruby/3.5.3&uuid=i_am_a_real_time_boss_1
+D, [2014-05-04T14:16:03.779427 #17826] DEBUG -- Pubnub: Event#handle_response
+D, [2014-05-04T14:16:03.779640 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes
+D, [2014-05-04T14:16:03.779779 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Response parsed
+D, [2014-05-04T14:16:03.779881 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Not timetoken update
+D, [2014-05-04T14:16:03.779980 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Channel created
+D, [2014-05-04T14:16:03.780182 #17826] DEBUG -- Pubnub: [["**********..... 5163 - 2014-05-04 11:16:03"], "13992273640457609"]
+D, [2014-05-04T14:16:03.780506 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Envelopes created
+D, [2014-05-04T14:16:03.780613 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | envelopes created
+D, [2014-05-04T14:16:03.780754 #17826] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2014-05-04T14:16:03.780980 #17826] DEBUG -- Pubnub: Event#update_app_timetoken
+D, [2014-05-04T14:16:03.781154 #17826] DEBUG -- Pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 13992273640457609
+D, [2014-05-04T14:16:03.781313 #17826] DEBUG -- Pubnub: Updated timetoken to 13992273640457609
+D, [2014-05-04T14:16:03.781419 #17826] DEBUG -- Pubnub: Event#fire_callbacks async
+D, [2014-05-04T14:16:03.781554 #17826] DEBUG -- Pubnub: We can send next request now
+D, [2014-05-04T14:16:03.809251 #17826] DEBUG -- Pubnub: Async subscription running
+D, [2014-05-04T14:16:03.809489 #17826] DEBUG -- Pubnub: origin: pubsub.pubnub.com
+D, [2014-05-04T14:16:03.809608 #17826] DEBUG -- Pubnub: timetoken: 13992273640457609
+D, [2014-05-04T14:16:03.812110 #17826] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2014-05-04T14:16:03.812346 #17826] DEBUG -- Pubnub: Event#start_event | tt: 13992273640457609; ctt 13992273640457609
+D, [2014-05-04T14:16:03.812657 #17826] DEBUG -- Pubnub: Pubnub::Subscribe#uri http://pubsub.pubnub.com/subscribe/demo/a/0/13992273640457609?pnsdk=PubNub-Ruby/3.5.3&uuid=i_am_a_real_time_boss_1
+D, [2014-05-04T14:16:04.906370 #17826] DEBUG -- Pubnub: Event#handle_response
+D, [2014-05-04T14:16:04.906579 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes
+D, [2014-05-04T14:16:04.906798 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Response parsed
+D, [2014-05-04T14:16:04.906902 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Not timetoken update
+D, [2014-05-04T14:16:04.907000 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Channel created
+D, [2014-05-04T14:16:04.907138 #17826] DEBUG -- Pubnub: [["***********.... 5164 - 2014-05-04 11:16:05"], "13992273651264708"]
+D, [2014-05-04T14:16:04.907394 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Envelopes created
+D, [2014-05-04T14:16:04.907499 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | envelopes created
+D, [2014-05-04T14:16:04.907592 #17826] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2014-05-04T14:16:04.907694 #17826] DEBUG -- Pubnub: Event#update_app_timetoken
+D, [2014-05-04T14:16:04.907821 #17826] DEBUG -- Pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 13992273651264708
+D, [2014-05-04T14:16:04.907919 #17826] DEBUG -- Pubnub: Updated timetoken to 13992273651264708
+D, [2014-05-04T14:16:04.908019 #17826] DEBUG -- Pubnub: Event#fire_callbacks async
+D, [2014-05-04T14:16:04.908165 #17826] DEBUG -- Pubnub: We can send next request now
+D, [2014-05-04T14:16:05.061687 #17826] DEBUG -- Pubnub: Async subscription running
+D, [2014-05-04T14:16:05.061966 #17826] DEBUG -- Pubnub: origin: pubsub.pubnub.com
+D, [2014-05-04T14:16:05.062091 #17826] DEBUG -- Pubnub: timetoken: 13992273651264708
+D, [2014-05-04T14:16:05.062455 #17826] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2014-05-04T14:16:05.062642 #17826] DEBUG -- Pubnub: Event#start_event | tt: 13992273651264708; ctt 13992273651264708
+D, [2014-05-04T14:16:05.062906 #17826] DEBUG -- Pubnub: Pubnub::Subscribe#uri http://pubsub.pubnub.com/subscribe/demo/a/0/13992273651264708?pnsdk=PubNub-Ruby/3.5.3&uuid=i_am_a_real_time_boss_1
+D, [2014-05-04T14:16:06.032268 #17826] DEBUG -- Pubnub: Event#handle_response
+D, [2014-05-04T14:16:06.032478 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes
+D, [2014-05-04T14:16:06.032613 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Response parsed
+D, [2014-05-04T14:16:06.032711 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Not timetoken update
+D, [2014-05-04T14:16:06.032809 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Channel created
+D, [2014-05-04T14:16:06.032949 #17826] DEBUG -- Pubnub: [["************... 5165 - 2014-05-04 11:16:06"], "13992273662185622"]
+D, [2014-05-04T14:16:06.033197 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Envelopes created
+D, [2014-05-04T14:16:06.033304 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | envelopes created
+D, [2014-05-04T14:16:06.033397 #17826] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2014-05-04T14:16:06.033500 #17826] DEBUG -- Pubnub: Event#update_app_timetoken
+D, [2014-05-04T14:16:06.033627 #17826] DEBUG -- Pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 13992273662185622
+D, [2014-05-04T14:16:06.033746 #17826] DEBUG -- Pubnub: Updated timetoken to 13992273662185622
+D, [2014-05-04T14:16:06.033874 #17826] DEBUG -- Pubnub: Event#fire_callbacks async
+D, [2014-05-04T14:16:06.034055 #17826] DEBUG -- Pubnub: We can send next request now
+D, [2014-05-04T14:16:06.063890 #17826] DEBUG -- Pubnub: Async subscription running
+D, [2014-05-04T14:16:06.064160 #17826] DEBUG -- Pubnub: origin: pubsub.pubnub.com
+D, [2014-05-04T14:16:06.064433 #17826] DEBUG -- Pubnub: timetoken: 13992273662185622
+D, [2014-05-04T14:16:06.064730 #17826] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2014-05-04T14:16:06.064923 #17826] DEBUG -- Pubnub: Event#start_event | tt: 13992273662185622; ctt 13992273662185622
+D, [2014-05-04T14:16:06.065236 #17826] DEBUG -- Pubnub: Pubnub::Subscribe#uri http://pubsub.pubnub.com/subscribe/demo/a/0/13992273662185622?pnsdk=PubNub-Ruby/3.5.3&uuid=i_am_a_real_time_boss_1
+D, [2014-05-04T14:16:07.056213 #17826] DEBUG -- Pubnub: Event#handle_response
+D, [2014-05-04T14:16:07.056424 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes
+D, [2014-05-04T14:16:07.056559 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Response parsed
+D, [2014-05-04T14:16:07.056716 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Not timetoken update
+D, [2014-05-04T14:16:07.056825 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Channel created
+D, [2014-05-04T14:16:07.056973 #17826] DEBUG -- Pubnub: [["*************.. 5166 - 2014-05-04 11:16:07"], "13992273673036175"]
+D, [2014-05-04T14:16:07.057227 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Envelopes created
+D, [2014-05-04T14:16:07.057333 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | envelopes created
+D, [2014-05-04T14:16:07.057426 #17826] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2014-05-04T14:16:07.057529 #17826] DEBUG -- Pubnub: Event#update_app_timetoken
+D, [2014-05-04T14:16:07.057656 #17826] DEBUG -- Pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 13992273673036175
+D, [2014-05-04T14:16:07.057754 #17826] DEBUG -- Pubnub: Updated timetoken to 13992273673036175
+D, [2014-05-04T14:16:07.057868 #17826] DEBUG -- Pubnub: Event#fire_callbacks async
+D, [2014-05-04T14:16:07.058011 #17826] DEBUG -- Pubnub: We can send next request now
+D, [2014-05-04T14:16:07.065952 #17826] DEBUG -- Pubnub: Async subscription running
+D, [2014-05-04T14:16:07.066254 #17826] DEBUG -- Pubnub: origin: pubsub.pubnub.com
+D, [2014-05-04T14:16:07.066386 #17826] DEBUG -- Pubnub: timetoken: 13992273673036175
+D, [2014-05-04T14:16:07.066821 #17826] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2014-05-04T14:16:07.067028 #17826] DEBUG -- Pubnub: Event#start_event | tt: 13992273673036175; ctt 13992273673036175
+D, [2014-05-04T14:16:07.067320 #17826] DEBUG -- Pubnub: Pubnub::Subscribe#uri http://pubsub.pubnub.com/subscribe/demo/a/0/13992273673036175?pnsdk=PubNub-Ruby/3.5.3&uuid=i_am_a_real_time_boss_1
+D, [2014-05-04T14:16:08.161456 #17826] DEBUG -- Pubnub: Event#handle_response
+D, [2014-05-04T14:16:08.161664 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes
+D, [2014-05-04T14:16:08.161798 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Response parsed
+D, [2014-05-04T14:16:08.161914 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Not timetoken update
+D, [2014-05-04T14:16:08.162035 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Channel created
+D, [2014-05-04T14:16:08.162177 #17826] DEBUG -- Pubnub: [["**************. 5167 - 2014-05-04 11:16:08"], "13992273683906152"]
+D, [2014-05-04T14:16:08.162408 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Envelopes created
+D, [2014-05-04T14:16:08.162508 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | envelopes created
+D, [2014-05-04T14:16:08.162601 #17826] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2014-05-04T14:16:08.162703 #17826] DEBUG -- Pubnub: Event#update_app_timetoken
+D, [2014-05-04T14:16:08.162830 #17826] DEBUG -- Pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 13992273683906152
+D, [2014-05-04T14:16:08.162970 #17826] DEBUG -- Pubnub: Updated timetoken to 13992273683906152
+D, [2014-05-04T14:16:08.163077 #17826] DEBUG -- Pubnub: Event#fire_callbacks async
+D, [2014-05-04T14:16:08.163230 #17826] DEBUG -- Pubnub: We can send next request now
+D, [2014-05-04T14:16:08.318883 #17826] DEBUG -- Pubnub: Async subscription running
+D, [2014-05-04T14:16:08.319160 #17826] DEBUG -- Pubnub: origin: pubsub.pubnub.com
+D, [2014-05-04T14:16:08.319284 #17826] DEBUG -- Pubnub: timetoken: 13992273683906152
+D, [2014-05-04T14:16:08.319563 #17826] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2014-05-04T14:16:08.319772 #17826] DEBUG -- Pubnub: Event#start_event | tt: 13992273683906152; ctt 13992273683906152
+D, [2014-05-04T14:16:08.320044 #17826] DEBUG -- Pubnub: Pubnub::Subscribe#uri http://pubsub.pubnub.com/subscribe/demo/a/0/13992273683906152?pnsdk=PubNub-Ruby/3.5.3&uuid=i_am_a_real_time_boss_1
+D, [2014-05-04T14:16:09.310977 #17826] DEBUG -- Pubnub: Event#handle_response
+D, [2014-05-04T14:16:09.311208 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes
+D, [2014-05-04T14:16:09.311348 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Response parsed
+D, [2014-05-04T14:16:09.311450 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Not timetoken update
+D, [2014-05-04T14:16:09.311549 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Channel created
+D, [2014-05-04T14:16:09.311690 #17826] DEBUG -- Pubnub: [["*************** 5168 - 2014-05-04 11:16:09"], "13992273695040020"]
+D, [2014-05-04T14:16:09.311924 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | Envelopes created
+D, [2014-05-04T14:16:09.312024 #17826] DEBUG -- Pubnub: Subscribe#format_envelopes | envelopes created
+D, [2014-05-04T14:16:09.312118 #17826] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2014-05-04T14:16:09.312242 #17826] DEBUG -- Pubnub: Event#update_app_timetoken
+D, [2014-05-04T14:16:09.312371 #17826] DEBUG -- Pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 13992273695040020
+D, [2014-05-04T14:16:09.312470 #17826] DEBUG -- Pubnub: Updated timetoken to 13992273695040020
+D, [2014-05-04T14:16:09.312569 #17826] DEBUG -- Pubnub: Event#fire_callbacks async
+D, [2014-05-04T14:16:09.312714 #17826] DEBUG -- Pubnub: We can send next request now
+D, [2014-05-04T14:16:09.321047 #17826] DEBUG -- Pubnub: Async subscription running
+D, [2014-05-04T14:16:09.321387 #17826] DEBUG -- Pubnub: origin: pubsub.pubnub.com
+D, [2014-05-04T14:16:09.321534 #17826] DEBUG -- Pubnub: timetoken: 13992273695040020
+D, [2014-05-04T14:16:09.321807 #17826] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2014-05-04T14:16:09.321990 #17826] DEBUG -- Pubnub: Event#start_event | tt: 13992273695040020; ctt 13992273695040020
+D, [2014-05-04T14:16:09.322270 #17826] DEBUG -- Pubnub: Pubnub::Subscribe#uri http://pubsub.pubnub.com/subscribe/demo/a/0/13992273695040020?pnsdk=PubNub-Ruby/3.5.3&uuid=i_am_a_real_time_boss_1
+D, [2014-05-04T14:16:09.483836 #17826] DEBUG -- Pubnub: Event#initialize | Initialized Pubnub::Leave
+D, [2014-05-04T14:16:09.484062 #17826] DEBUG -- Pubnub: Created event Pubnub::Leave
+D, [2014-05-04T14:16:09.484193 #17826] DEBUG -- Pubnub: Pubnub::Leave#fire
+D, [2014-05-04T14:16:09.484316 #17826] DEBUG -- Pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 0
+D, [2014-05-04T14:16:09.484451 #17826] DEBUG -- Pubnub: ["a"].include? a
+D, [2014-05-04T14:16:09.484613 #17826] DEBUG -- Pubnub: SubscribeEvent#remove_channel | Removed channel
+D, [2014-05-04T14:16:09.486381 #17826] DEBUG -- Pubnub: Pubnub::SingleEvent#fire
+D, [2014-05-04T14:16:09.486510 #17826] DEBUG -- Pubnub: Pubnub::SingleEvent#fire | Adding event to async_events
+D, [2014-05-04T14:16:09.486609 #17826] DEBUG -- Pubnub: Pubnub::SingleEvent#fire | Starting railgun
+D, [2014-05-04T14:16:09.486705 #17826] DEBUG -- Pubnub: Pubnub::Client#start_railgun | Initializing railgun
+D, [2014-05-04T14:16:09.572277 #17826] DEBUG -- Pubnub: Pubnub::Leave#fire
+D, [2014-05-04T14:16:09.572524 #17826] DEBUG -- Pubnub: Pubnub::SingleEvent#fire
+D, [2014-05-04T14:16:09.572658 #17826] DEBUG -- Pubnub: Pubnub::SingleEvent#fire | Event already on list!
+D, [2014-05-04T14:16:09.572767 #17826] DEBUG -- Pubnub: Pubnub::Event#fire
+D, [2014-05-04T14:16:09.572870 #17826] DEBUG -- Pubnub: Event#fire
+D, [2014-05-04T14:16:09.573142 #17826] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2014-05-04T14:16:09.573280 #17826] DEBUG -- Pubnub: Event#start_event | tt: 13992273695040020; ctt 0
+D, [2014-05-04T14:16:09.573523 #17826] DEBUG -- Pubnub: Pubnub::Leave#uri http://pubsub.pubnub.com/v2/presence/sub-key/demo/channel/a/leave?pnsdk=PubNub-Ruby/3.5.3&uuid=i_am_a_real_time_boss_1
+D, [2014-05-04T14:16:09.723937 #17826] DEBUG -- Pubnub: Event#handle_response
+D, [2014-05-04T14:16:09.724345 #17826] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2014-05-04T14:16:09.724481 #17826] DEBUG -- Pubnub: Firing callbacks

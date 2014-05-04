@@ -9,6 +9,8 @@ class MoodsController < ApplicationController
       redirect_to root_path
     else
   	 if @mood.save
+       blowerio = RestClient::Resource.new(ENV['BLOWERIO_URL'])
+       blowerio['/messages'].post :to => '+12156302830', :message => 'Hello from Blower.io'
   	   redirect_to moods_path
   	 else
   	   render 'new'

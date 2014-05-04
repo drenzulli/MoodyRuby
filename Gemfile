@@ -5,6 +5,8 @@ gem 'rails', '4.0.2'
 
 gem 'devise', '3.0'
 
+gem 'rest-client'
+
 # Use sqlite3 as the database for Active Record
 group :development do
 	gem 'sqlite3'
