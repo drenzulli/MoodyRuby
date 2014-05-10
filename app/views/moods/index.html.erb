@@ -1,3 +1,4 @@
+<div class="box">
 <table>
 	<tr>
 		<td>Mood</td>
@@ -9,8 +10,9 @@
 		<td><%=link_to mood.feeling, mood_path(mood.id)%></td>
 		<td><%=mood.adjective%></td>
 		<td><%=mood.user_id%></td>
-		<td><%=link_to "edit mood", edit_mood_path(mood.id)%></td>
-		<td><%=link_to "Delete mood", mood, method: :delete%></td>
+		<td class="changes"><%=link_to "edit", edit_mood_path(mood.id)%></td>
+		<td class="changes"><%=link_to "delete", mood, method: :delete%></td>
 	</tr>
 	<% end %>
 </table>
+</div>

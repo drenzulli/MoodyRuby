@@ -1,3 +1,6 @@
+//= require jquery
+//= require jquery_ujs
+
 $(function () {
 	$('.nav-link').hover(function () {
 		var links = ($(this).text());

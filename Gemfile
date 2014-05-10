@@ -7,6 +7,8 @@ gem 'devise', '3.0'
 
 gem 'rest-client'
 
+gem 'twitter'
+
 # Use sqlite3 as the database for Active Record
 group :development do
 	gem 'sqlite3'

@@ -47,7 +47,7 @@ class MoodsController < ApplicationController
   def destroy
     @mood = Mood.find(params[:id])
     @mood.destroy
-    redirect_to moods_path
+    redirect_to root_path
   end
 
   private
