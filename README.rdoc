@@ -1,5 +1,24 @@
 heroku link: http://blooming-atoll-4451.herokuapp.com/users/sign_in
 
+5/9/2014
+
+So this was a fun assignment.  Unfortunately, I couldn't get my twitter gem up and running, but I did end up using blower.IO for my heroku addon.  IMPORTANT: blower.IO is limited to 30 texts per month (beta). When testing, please don't go nuts!  You can test it with a valid phonenumber within the app under "New Moods". Whenever a new mood is added, you'll get a text message with the name of the mood.  As a reminder:
+
+CSS: on most pages
+Javascript/jQuery: on the navbar (a tooltip shows up when you hover over a link). Can be found in app/assets/javascripts/application.js
+Gem: Devise (working) docs: , 
+tweetstream/twitter(broken, but not affecting the app) docs: https://github.com/plataformatec/devise
+Heroku addon: Blower.IO (see above) docs: https://devcenter.heroku.com/articles/blowerio#using-with-ruby
+Database: Moods belong to user, Quotes belong to moods
+Validations: Can be found in the moods model.
+Queries: See very bottom of readme.
+
+Closing remarks:
+With the twitter gem not working, unfortunately my app isn't quite "complete".  The idea was to have users be capable of syncing up their twitter to this app, and then I monitor their included moods and text them if they seem upset/sad/frustrated/angry/happy/excited/studying/ whatever mood they choose! I realized my first limitation when it came to texting.  Being limited to only 30 texts per month kind of limits the functionality of my app.  Then, there was the issue with the tweetstream/twitter gem.  Apparently, it doesn't play nice with rails.  There are some fixes, but nothing I could figure out in time for submission.  Aside from that, this was pretty smooth sailing.  Blower.IO went up in a snap and was great! I definitely plan on continuing with rails development and (more specifically) I'm really excited to do some ruby scripting this summer.  I already have a few projects lined up (including finishing this app!).  
+
+Thanks for a great semester and have a nice summer!
+
+
 4/20/2014
 
 Added jQuery to application (app/assets/javascripts/application.js).  It adds a hover tool-tip text (yet to be css'd) element
